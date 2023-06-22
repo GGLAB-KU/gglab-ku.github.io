@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.ku.edu.tr/'>Koc University</a>, Rumelifeneri, Sarıyer, İstanbul
 
 profile:
   align: right
