@@ -22,3 +22,5 @@ social: true  # includes social icons at the bottom of the page
 </div>
 
 Welcome to KU NLP group! We are a group of researchers working on natural language processing in the Department of Computer Science at Koc University.
+
+We are privileged to be led by our esteemed supervisor, [Prof. Gözde Gül Şahin](https://gozdesahin.github.io/), whose expertise and vision in the field of Natural Language Processing continues to guide and inspire our group's research efforts.
