@@ -961,6 +961,33 @@ nav[data-toggle="toc"] {
   }
 }
 
+// News
+
+.news table td {
+  font-size: 1rem;
+  color: var(--global-text-color);
+}
+
+.news table th {
+  color: var(--global-text-color);
+}
+
+// Social (bottom)
+
+.social {
+  text-align: center;
+  .contact-icon {
+    font-size: 4rem;
+    a {
+      color: var(--global-icon-color);
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
+
 /* Tips, warnings, and dangers blockquotes */
 .post .post-content blockquote {
   &.block-tip {

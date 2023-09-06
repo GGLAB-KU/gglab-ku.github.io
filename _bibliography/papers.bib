@@ -1,12 +1,50 @@
 ---
 ---
 
+@inproceedings{plu-aacl-arda23,
+  author       = {Uzunoğlu, Arda and
+                  Şahin, Gözde Gül},
+  title        = {Benchmarking Procedural Language Understanding for Low-Resource Languages: A Case Study on Turkish},
+  booktitle = "Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics",
+  month = november,
+  year = "2023",
+  address = "Bali, Indonesia",
+  publisher = "Association for Computational Linguistics",
+  abstract = "Understanding procedural natural language (e.g., step-by-step instructions) is a crucial step to execution and planning. However, while there are ample corpora and downstream tasks available in English, the field lacks such resources for most languages. To address this gap, we conduct a case study on Turkish procedural texts. We first expand the number of tutorials in Turkish wikiHow from 2,000 to 52,000 using automated translation tools, where the translation quality and loyalty to the original meaning are validated by a team of experts on a random set. Then, we generate several downstream tasks on the corpus, such as linking actions, goal inference, and summarization. To tackle these tasks, we implement strong baseline models via fine-tuning large language-specific models such as TR-BART and BERTurk, as well as multilingual models such as mBART, mT5, and XLM. We find that language-specific models consistently outperform their multilingual models by a significant margin across most procedural language understanding~(PLU) tasks.",
+}
+
+@inproceedings{gecturk-aacl23,
+  author       = {Kara, Atakan and
+                  Safian, Farrin and
+                  Bond, Andrew and
+                  Şahin, Gözde Gül},
+  title        = {GECTurk: Grammatical Error Correction and Detection Dataset for Turkish},
+  booktitle = "Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (Findings)",
+  month = november,
+  year = "2023",
+  address = "Bali, Indonesia",
+  publisher = "Association for Computational Linguistics",
+  abstract = "Grammatical Error Detection and Correction (GEC) tools have proven useful for native speakers and second language learners. Developing such tools requires a large amount of parallel, annotated data, which is unavailable for most languages. Synthetic data generation is a common practice to overcome the scarcity of such data. However, it is not straightforward for morphologically rich languages like Turkish due to complex writing rules that require phonological, morphological, and syntactic information. In this work, we present a flexible and extensible synthetic data generation pipeline for Turkish covering more than 20 expert-curated grammar and spelling rules (a.k.a., writing rules) implemented through complex transformation functions. Using the pipeline, we derive 130,000 high-quality parallel sentences from professionally edited articles. Additionally, we create a more realistic test set by manually annotating a set of movie reviews. We implement three baselines formulating the task as i) neural machine translation, ii) sequence tagging, and iii) few-shot learning with prefix tuning, achieving strong results. Then we perform a zero-shot evaluation of our pretrained models on the coarse-grained BOUN -de/-da and fine-grained expert annotated dataset. Our results suggest that our corpus, GECTurk, is high-quality and allows knowledge transfer for the out-of-domain setting. To encourage further research on Turkish GEC, we release our dataset, baseline models, and synthetic data generation pipeline with https://anonymous.4open.science/r/tr-gec-17D6/.",
+}
+
+@inproceedings{mbl-subha23,
+  author       = {Vadlamannati, Subha and
+                  Şahin, Gözde Gül},
+  title        = {Metric-Based In-context Learning: {A} Case Study in Text Simplification},
+  booktitle = "Proceedings of the 16th International Natural Language Generation Conference",
+  month = september,
+  year = "2023",
+  address = "Prague, Czech Republic",
+  publisher = "Association for Computational Linguistics",
+  abstract = "In-context learning (ICL) for large language models has proven to be a powerful approach for many natural language processing tasks. However, determining the best method to select examples for ICL is nontrivial as the results can vary greatly depending on the quality, quantity, and order of examples used. In this paper, we conduct a case study on text simplification (TS) to investigate how to select the best and most robust examples for ICL. We propose Metric-Based in-context Learning (MBL) method that utilizes commonly used TS metrics such as SARI, compression ratio, and BERT-Precision for selection. Through an extensive set of experiments with various-sized GPT models on standard TS benchmarks such as TurkCorpus and ASSET, we show that examples selected by the top SARI scores perform the best on larger models such as GPT-175B, while the compression ratio generally performs better on smaller models such as GPT-13B and GPT-6.7B. Furthermore, we demonstrate that MBL is generally robust to example orderings and out-of-domain test sets, and outperforms strong baselines and state-of-the-art finetuned language models. Finally, we show that the behaviour of large GPT models can be implicitly controlled by the chosen metric. Our research provides a new framework for selecting examples in ICL, and demonstrates its effectiveness in text simplification tasks, breaking new ground for more accurate and efficient NLG systems."
+}
+
 @inproceedings{klie-etal-2023-lessons,
     title = "Lessons Learned from a Citizen Science Project for Natural Language Processing",
     author = {Klie, Jan-Christoph  and
       Lee, Ji-Ung  and
       Stowe, Kevin  and
-      {\c{S}}ahin, G{\"o}zde  and
+      Şahin, Gözde Gül and
       Moosavi, Nafise Sadat  and
       Bates, Luke  and
       Petrak, Dominic  and
@@ -20,5 +58,27 @@
     url = "https://aclanthology.org/2023.eacl-main.261",
     pages = "3594--3608",
     abstract = "Many Natural Language Processing (NLP) systems use annotated corpora for training and evaluation. However, labeled data is often costly to obtain and scaling annotation projects is difficult, which is why annotation tasks are often outsourced to paid crowdworkers. Citizen Science is an alternative to crowdsourcing that is relatively unexplored in the context of NLP. To investigate whether and how well Citizen Science can be applied in this setting, we conduct an exploratory study into engaging different groups of volunteers in Citizen Science for NLP by re-annotating parts of a pre-existing crowdsourced dataset. Our results show that this can yield high-quality annotations and at- tract motivated volunteers, but also requires considering factors such as scalability, participation over time, and legal and ethical issues. We summarize lessons learned in the form of guidelines and provide our code and data to aid future work on Citizen Science.",
+}
+
+
+
+@inproceedings{DBLP:conf/eacl/PuertoSG23,
+  author       = {Haritz Puerto and
+                  G{\"{o}}zde G{\"{u}}l Sahin and
+                  Iryna Gurevych},
+  editor       = {Andreas Vlachos and
+                  Isabelle Augenstein},
+  title        = {MetaQA: Combining Expert Agents for Multi-Skill Question Answering},
+  booktitle    = {Proceedings of the 17th Conference of the European Chapter of the
+                  Association for Computational Linguistics, {EACL} 2023, Dubrovnik,
+                  Croatia, May 2-6, 2023},
+  pages        = {3548--3562},
+  publisher    = {Association for Computational Linguistics},
+  year         = {2023},
+  url          = {https://aclanthology.org/2023.eacl-main.259},
+  timestamp    = {Thu, 11 May 2023 17:08:21 +0200},
+  biburl       = {https://dblp.org/rec/conf/eacl/PuertoSG23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = "The recent explosion of question answering (QA) datasets and models has increased the interest in the generalization of models across multiple domains and formats by either training on multiple datasets or by combining multiple models. Despite the promising results of multi-dataset models, some domains or QA formats may require specific architectures, and thus the adaptability of these models might be limited. In addition, current approaches for combining models disregard cues such as question-answer compatibility. In this work, we propose to combine expert agents with a novel, flexible, and training-efficient architecture that considers questions, answer predictions, and answer-prediction confidence scores to select the best answer among a list of answer candidates. Through quantitative and qualitative experiments we show that our model i) creates a collaboration between agents that outperforms previous multi-agent and multi-dataset approaches in both in-domain and out-of-domain scenarios, ii) is highly data-efficient to train, and iii) can be adapted to any QA format. We release our code and a dataset of answer predictions from expert agents for 16 QA datasets to foster future developments of multi-agent systems on https://github.com/UKPLab/MetaQA. ",
 }
 

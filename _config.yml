@@ -2,25 +2,23 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: Koc University
-middle_name:
-last_name: NLP Group
-email: nlp-group@ku.edu.tr
+title: GGLab@Koç # the website title (if blank, full name will be used instead)
+first_name: GGLab
+middle_name: 
+last_name: NLP Research Group
+email: gosahin@ku.edu.tr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Homepage for GGLab@Koc
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+  Photos from <a href="https://www.freepik.com/" target="_blank">Freepik</a>.
+keywords: natural language processing, NLP, AI, Language Models, LLM,   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon144x144.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://nlp-ku.github.io # the base hostname & protocol for your site
+url: https://gglab-ku.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -122,10 +120,10 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: KU NLP Blog # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+blog_name:  # blog_name will be displayed in your blog page
+blog_nav_title: # your blog must have a title for it to be displayed in the nav bar
+blog_description: 
+permalink:
 
 # Pagination
 pagination:
@@ -139,8 +137,8 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo: NLP-KU/nlp-ku.github.io    # <your-github-user-name>/<your-github-repo-name>
-  repo_id: R_kgDOJyxDKQ
+  repo: GGLAB-KU/gglab-ku.github.io    # <your-github-user-name>/<your-github-repo-name>
+  repo_id: 657212201
   category: General             # name of the category under which discussions will be created
   category_id: DIC_kwDOJyxDKc4CXZ2N
   mapping: title                 # identify discussions by post title
@@ -151,16 +149,6 @@ giscus:
   emit_metadata: 0
   lang: en
 
-# Disqus comments (DEPRECATED)
-#disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
-#external_sources:
-#  - name: medium.com
-#    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -175,14 +163,17 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  members:
+    output: true
+    permalink: /members/:path
 
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 10 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
