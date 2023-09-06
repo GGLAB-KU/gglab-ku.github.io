@@ -887,6 +887,28 @@ nav[data-toggle=toc] .nav-link.active:hover {
     top: 0;
   }
 }
+.news table td {
+  font-size: 1rem;
+  color: var(--global-text-color);
+}
+
+.news table th {
+  color: var(--global-text-color);
+}
+
+.social {
+  text-align: center;
+}
+.social .contact-icon {
+  font-size: 4rem;
+}
+.social .contact-icon a {
+  color: var(--global-icon-color);
+}
+.social .contact-icon a:hover {
+  color: var(--global-theme-color);
+}
+
 /* Tips, warnings, and dangers blockquotes */
 .post .post-content blockquote.block-tip {
   border-color: var(--global-tip-block);

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://nlp-ku.github.io/sitemap.xml
+Sitemap: https://gglab-ku.github.io/sitemap.xml
