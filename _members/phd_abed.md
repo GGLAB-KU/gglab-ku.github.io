@@ -6,15 +6,12 @@ group_rank: 2
 team_frontpage: true
 
 title: MSc Abdalfatah Rashid Safa
-description: Profile of Abdalfatah Rashid Safa, Doctoral Researcher at the GGLab.
+description: Profile of Abdulfattah Rashid Safa, Doctoral Researcher at the GGLab.
 lastname: Safa
 publications: 'author^=*Safa'
 
 teaser: >
-    I work on programming abstractions for replicated data.
-    Currently, I'm the main contributor to ConSysT,
-    an object-oriented language for mixed consistency with replicated objects.
-    My research interests include concurrency, mixed consistency protocols, and type systems.
+    I am a Ph.D. student at [Koç University](https://www.ku.edu.tr/en/) Computer Science and Engineering Department and a researcher at GGLab.
 
 profile:
     name: MSc Abdalfatah Rashid Safa
@@ -28,8 +25,6 @@ profile:
         Rumelifeneri Yolu, Sarıyer <br />
         34450 İstanbul, Türkiye
 ---
+Currently, I am a Ph.D. student at [Koç University](https://www.ku.edu.tr/en/) Computer Science and Engineering Department. I got my master's degree from the Computer Science department at [Birzeit University](https://www.birzeit.edu/en), where I worked with [Prof.Adnan Yahya](https://www.birzeit.edu/en/faculty-staff/adnan-yahya) on Knowledge Extraction and Semantic Similarity. Before that, I had a bachelor's degree in electrical engineering from [Birzeit University](https://www.birzeit.edu/en) as well.  I have 12 years of experience in the semi-conductor software industry.
 
-I work on programming abstractions for replicated data.
-Currently, I'm the main contributor to [ConSysT](https://consyst-project.github.io/){: target="_blank" },
-an object-oriented language for mixed consistency with replicated objects.
-My research interests include concurrency, mixed consistency protocols, and type systems.
+My research interests include task-oriented dialogues.
