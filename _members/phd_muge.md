@@ -11,10 +11,9 @@ lastname: Kural
 publications: 'author^=*Kural'
 
 teaser: >
-    I work on programming abstractions for replicated data.
-    Currently, I'm the main contributor to ConSysT,
-    an object-oriented language for mixed consistency with replicated objects.
-    My research interests include concurrency, mixed consistency protocols, and type systems.
+    I work on reasoning in LLMs.
+    Currently, I'm working on the developmental stages of logical reasoning in LLMs.
+    My research interests include social reasoning in AI, human-AI interaction and explainable AI.
 
 profile:
     name: MSc Müge Kural
@@ -29,7 +28,6 @@ profile:
         34450 İstanbul, Türkiye
 ---
 
-I work on programming abstractions for replicated data.
-Currently, I'm the main contributor to [ConSysT](https://consyst-project.github.io/){: target="_blank" },
-an object-oriented language for mixed consistency with replicated objects.
-My research interests include concurrency, mixed consistency protocols, and type systems.
+I work on reasoning in LLMs.
+Currently, I'm working on the developmental stages of logical reasoning in LLMs.
+My research interests include social reasoning in AI, human-AI interaction and explainable AI.
