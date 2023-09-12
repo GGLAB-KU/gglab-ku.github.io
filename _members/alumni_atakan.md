@@ -11,7 +11,7 @@ lastname: Kara
 publications: 'author^=*Kara'
 
 teaser: >
-    At GGLab, I worked on Grammatical Error Correction (GEC),  specifically for the Turkish language. We created GECTurk, the first comprehensive dataset for Turkish Grammatical Error Correction. In addition, we introduced several baselines that set the standard for English over recent years.
+    At GGLab, I worked on Grammatical Error Correction (GEC) specifically for the Turkish language. We created GECTurk, the first comprehensive dataset for Turkish Grammatical Error Correction. In addition, we introduced several baselines that set the standard for English over recent years.
 
 profile:
     name: Atakan Kara
