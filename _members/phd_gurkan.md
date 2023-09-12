@@ -11,7 +11,7 @@ lastname: Soykan
 publications: "author^=*Soykan"
 
 teaser: >
-  Previously, I focused on multimodal neural comic book understanding. Currently, my academic curiosity is centered around dialogue systems and interactivity.
+  I earned my Bachelor's degree from Sabancı University with a double major in Computer Science and Materials Science. After that, I worked as a software engineer on various web and mobile applications. Subsequently, I pursued a Master's degree at Koç University, focusing on AI. During my master's program, I specialized in multimodal neural comics understanding, with my thesis and research centered on OCR for comics, multi-task learning for comics, specifically character-to-speech bubble association, comic character re-identification, and the development of a foundational model for comics, called as ComicBERT. Currently, I am keen to shift my focus towards dialogue systems and interactivity.
 
 profile:
   name: MSc Gürkan Soykan
@@ -26,4 +26,4 @@ profile:
     34450 İstanbul, Türkiye
 ---
 
-Previously, I focused on multimodal neural comic book understanding. Currently, my academic curiosity is centered around dialogue systems and interactivity.
+I earned my Bachelor's degree from Sabancı University with a double major in Computer Science and Materials Science. After that, I worked as a software engineer on various web and mobile applications. Subsequently, I pursued a Master's degree at Koç University, focusing on AI. During my master's program, I specialized in multimodal neural comics understanding, with my thesis and research centered on OCR for comics, multi-task learning for comics, specifically character-to-speech bubble association, comic character re-identification, and the development of a foundational model for comics, called as ComicBERT. Currently, I am keen to shift my focus towards dialogue systems and interactivity.
