@@ -11,10 +11,7 @@ lastname: Kara
 publications: 'author^=*Kara'
 
 teaser: >
-    I work on programming abstractions for replicated data.
-    Currently, I'm the main contributor to ConSysT,
-    an object-oriented language for mixed consistency with replicated objects.
-    My research interests include concurrency, mixed consistency protocols, and type systems.
+    At GGLab, I worked on Grammatical Error Correction (GEC),  specifically for the Turkish language. We created GECTurk, the first comprehensive dataset for Turkish Grammatical Error Correction. In addition, we introduced several baselines that set the standard for English over recent years.
 
 profile:
     name: Atakan Kara
@@ -23,11 +20,9 @@ profile:
     role: Intern
     email: akara18@ku.edu.tr
     address: >
-        Hochschulstr. 10<br />
-        64289 Darmstadt, Germany
+        Koç University<br />
+        Rumelifeneri Yolu, Sarıyer <br />
+        34450 İstanbul, Türkiye
 ---
 
-I work on programming abstractions for replicated data.
-Currently, I'm the main contributor to [ConSysT](https://consyst-project.github.io/){: target="_blank" },
-an object-oriented language for mixed consistency with replicated objects.
-My research interests include concurrency, mixed consistency protocols, and type systems.
+At GGLab, I worked on Grammatical Error Correction (GEC),  specifically for the Turkish language. We created GECTurk, the first comprehensive dataset for Turkish Grammatical Error Correction. In addition, we introduced several baselines that set the standard for English over recent years.
