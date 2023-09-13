@@ -11,7 +11,7 @@ lastname: Kural
 publications: 'author^=*Kural'
 
 teaser: >
-    I am a Ph.D. researcher at GGLab and [KUIS AI](https://ai.ku.edu.tr/).
+    I am a Ph.D. researcher at GGLab and KUIS AI.
     I work on reasoning in LLMs.   
     My research interests include social reasoning in AI, human-AI interaction, and explainable AI.
 
