@@ -11,10 +11,7 @@ lastname: Kara
 publications: 'author^=*Kara'
 
 teaser: >
-    I work on programming abstractions for replicated data.
-    Currently, I'm the main contributor to ConSysT,
-    an object-oriented language for mixed consistency with replicated objects.
-    My research interests include concurrency, mixed consistency protocols, and type systems.
+    I earned my B.S. in CE and Mathematics from Koç University. I worked on Grammatical Error Correction and Legal NLP...
 
 profile:
     name: Atakan Kara
@@ -23,11 +20,9 @@ profile:
     role: Intern
     email: akara18@ku.edu.tr
     address: >
-        Hochschulstr. 10<br />
-        64289 Darmstadt, Germany
+        Koç University<br />
+        Rumelifeneri Yolu, Sarıyer <br />
+        34450 İstanbul, Türkiye
 ---
 
-I work on programming abstractions for replicated data.
-Currently, I'm the main contributor to [ConSysT](https://consyst-project.github.io/){: target="_blank" },
-an object-oriented language for mixed consistency with replicated objects.
-My research interests include concurrency, mixed consistency protocols, and type systems.
+I earned my B.S. in Computer Engineering with a double major in Mathematics from Koç University. I have previously interned and held positions related to Natural Language Processing (NLP). During my time at GGLab, I contributed to developing Grammatical Error Correction (GEC) for Turkish. We successfully produced GECTurk, the first extensive dataset specifically for Turkish GEC. Furthermore, we set new standards by introducing several baseline techniques that have set the standard in English over recent years. Moreover, under the guidance of [Asst. Prof. Gözde Gül Şahin](https://gozdesahin.github.io/) and [Prof. Metin Sezgin](https://iui.ku.edu.tr/people/), we developed a [Smart Legal Search Engine](https://www.linkedin.com/posts/atakan-kara-903632173_we-are-thrilled-to-share-that-our-senior-activity-7077316851638091777-aYyo?utm_source=share&utm_medium=member_desktop) as our graduation project. This project was honored as the best Computer Engineering Senior Design project of the year.
