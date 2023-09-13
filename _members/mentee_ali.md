@@ -32,4 +32,4 @@ profile:
         34450 İstanbul, Türkiye
 ---
 
-I am currently an undergraduate student majoring in Computer Science. As I approach my graduation at the end of Fall 2023, I have had the privilege of delving deeply into the world of NLP. Over the past year, I interned under the guidance of Asst. Prof. Gözde Gül Şahin at Koç University, where I not only gained invaluable experience but also had the opportunity to contribute as one of the authors of the paper titled "The Role of Decision-Making Similarity in Multiple Aspects of Human-AI Interaction." My aspiration in the field is clear: I aim to push the boundaries of what Large Language Models (LLMs) can achieve, with the ultimate goal of contributing to the development of the first true AGI. 
+I am currently an undergraduate student majoring in Computer Science at Koç University. As I approach my graduation at the end of Fall 2023, I have had the privilege of delving deeply into the world of NLP. Over the past year, I interned under the guidance of Asst. Prof. Gözde Gül Şahin at Koç University working at the topic of cognitive trust and the decision-making similarities between humans and NLP models.
