@@ -11,10 +11,7 @@ lastname: Vadlamannati
 publications: 'author^=*Vadlamannati'
 
 teaser: >
-    I work on programming abstractions for replicated data.
-    Currently, I'm the main contributor to ConSysT,
-    an object-oriented language for mixed consistency with replicated objects.
-    My research interests include concurrency, mixed consistency protocols, and type systems.
+    I worked as a Fatima Fellow on text simplification.
 
 profile:
     name: Subha Vadlamannati
@@ -22,12 +19,12 @@ profile:
     image: mems/vadlamannati-profile.jpg
     role: Intern
     email: subhavee2@gmail.com
-    address: >
-        Hochschulstr. 10<br />
-        64289 Darmstadt, Germany
+
 ---
 
-I work on programming abstractions for replicated data.
-Currently, I'm the main contributor to [ConSysT](https://consyst-project.github.io/){: target="_blank" },
-an object-oriented language for mixed consistency with replicated objects.
-My research interests include concurrency, mixed consistency protocols, and type systems.
+I am a student at Mercer Island High-School. I am also the founder of [Linguistic Justice League](https://linguisticsjusticeleague.org/). I've been selected to Forbes 30 Under 30 local and Seattle Inno Under 25 lists. I worked at GGLab as a [Fatima Fellow](https://www.fatimafellowship.com/) on text simplification.  
+
+
+
+
+

@@ -11,23 +11,17 @@ lastname: Uzunoğlu
 publications: 'author^=*Uzunoğlu'
 
 teaser: >
-    I work on programming abstractions for replicated data.
-    Currently, I'm the main contributor to ConSysT,
-    an object-oriented language for mixed consistency with replicated objects.
-    My research interests include concurrency, mixed consistency protocols, and type systems.
+    I was a research intern between 05.2022-05.2023 at GGLab working on procedural language understanding benchmark.
 
 profile:
     name: Arda Uzunoğlu
     align: right
     image: mems/uzunoglu-profile.jpg
     role: Intern
-    email: arda@gmail.com
+    email: ardauzunogluarda@gmail.com
     address: >
-        Hochschulstr. 10<br />
-        64289 Darmstadt, Germany
+       Computer Science Department, Whiting School of Engineering, Johns Hopkins University
+       21218, Maryland, USA
 ---
 
-I work on programming abstractions for replicated data.
-Currently, I'm the main contributor to [ConSysT](https://consyst-project.github.io/){: target="_blank" },
-an object-oriented language for mixed consistency with replicated objects.
-My research interests include concurrency, mixed consistency protocols, and type systems.
+I am/was a research intern at GGLab and KUIS AI Center. From 2022 May to 2023 May, I worked on procedural language understanding from semi-structured procedural documents in low-resource languages and relationships between procedural elements such as goals, steps, and warnings/tips regarding such steps. My main research interest is the better alignment of language models in real-world tasks through procedural language understanding. Currently, I am an undergraduate student majoring in computer science at Johns Hopkins University and an undergraduate researcher at JHU Center for Language and Speech Processing.

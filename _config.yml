@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Homepage for GGLab@Koc
 footer_text: >
   Photos from <a href="https://www.freepik.com/" target="_blank">Freepik</a>.
-keywords: natural language processing, NLP, AI, Language Models, LLM,   # add your own keywords or leave empty
+keywords: natural language processing, NLP, AI, Language Models, LLM   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon144x144.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

@@ -11,8 +11,7 @@ lastname: Bond
 publications: 'author^=*Bond'
 
 teaser: >
-    I am currently pursuing a PhD in Computer Engineering at Koç University. I obtained my bachelor's degree in computer engineering from Koç University, with a minor in mathematics. My work at the GGLab focused on Turkish Grammatical Error Correction and Detection.
-    
+    I earned my B.S. in CE from Koç University. I worked on Grammatical Error Correction  
 
 profile:
     name: Andrew Yong-Xern Bond
@@ -22,4 +21,4 @@ profile:
     email: abond19@ku.edu.tr
 ---
 
-I am currently pursuing a PhD in Computer Engineering at Koç University. I obtained my bachelor's degree in computer engineering from Koç University, with a minor in mathematics. My work at the GGLab focused on Turkish Grammatical Error Correction and Detection. 
+I am currently pursuing a PhD in Computer Engineering at Koç University. I obtained my bachelor's degree in computer engineering from Koç University, with a minor in mathematics. My work at the GGLab focused on Turkish Grammatical Error Correction and Detection together with Atakan and Farrin. 
