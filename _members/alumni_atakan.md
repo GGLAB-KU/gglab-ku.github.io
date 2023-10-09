@@ -16,7 +16,7 @@ teaser: >
 profile:
     name: Atakan Kara
     align: right
-    image: mems/kara-profile.jpg
+    image: mems/kara-profile.webp
     role: Intern
     email: akara18@ku.edu.tr
 

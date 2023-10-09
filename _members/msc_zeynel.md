@@ -18,7 +18,7 @@ teaser: >
 profile:
     name: BSc Zeynel Uluşan
     align: right
-    image: mems/ulusan-profile.jpg
+    image: mems/ulusan-profile.webp
     role: Masters
     email: zeynelulusan@gmail.com
 ---

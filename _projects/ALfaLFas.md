@@ -10,7 +10,7 @@ publications: 'projects^=*ALfaLFas'
 
 profile:
     name: ALfaLFas
-    image: projects/alfalfas.jpg
+    image: projects/alfalfas.webp
     align: left
     address: >
 ---

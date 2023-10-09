@@ -16,7 +16,7 @@ teaser: >
 profile:
     name: Farrin Marouf Sofian
     align: right
-    image: mems/sofian-profile.jpg
+    image: mems/sofian-profile.webp
     role: Intern
     email: farrinsofian@gmail.com
     address: >

@@ -16,7 +16,7 @@ teaser: >
 profile:
     name: Tilek Chubakov
     align: right
-    image: mems/chubakov-profile.jpg
+    image: mems/chubakov-profile.webp
     role: Visitor
     email: tchubakov@berkeley.edu
     address: >
