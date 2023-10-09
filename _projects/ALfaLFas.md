@@ -4,7 +4,7 @@ inline: true
 title: ALfaLFas
 description: Automatic Learning of Procedural Language from Natural Language Instructions for Intelligent Assistance
 
-img: assets/img/projects/alfalfas.jpg
+img: assets/img/projects/alfalfas.webp
 img_contains_title: true
 publications: 'projects^=*ALfaLFas'
 
