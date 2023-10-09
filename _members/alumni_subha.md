@@ -11,8 +11,10 @@ lastname: Vadlamannati
 publications: 'author^=*Vadlamannati'
 
 teaser: >
-    I worked as a Fatima Fellow on text simplification.
-
+    **Previously**: Worked on text simplification as a Fatima Fellow.
+    <br>
+    **Currently**: Student at Mercer Island High School.
+  
 profile:
     name: Subha Vadlamannati
     align: right

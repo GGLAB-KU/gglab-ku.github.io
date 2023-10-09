@@ -11,7 +11,9 @@ lastname: Chubakov
 publications: 'author^=*Chubakov'
 
 teaser: >
-    PhD student at UKP Lab. Worked on morphology and Human-AI interaction 
+    **Previously**: Worked on computational morphology and Human-AI interaction.
+    <br>
+    **Currently**: PhD Student at UKP Lab, TU Darmstadt.
     
 profile:
     name: Tilek Chubakov

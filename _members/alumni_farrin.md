@@ -11,7 +11,9 @@ lastname: Sofian
 publications: 'author^=*Sofian'
 
 teaser: >
-    I'm pursuing my M.S. in Computer Science at UC Irvine, having earned my B.S. from Koç University while working with the GG Lab on Grammatical Error Correction (GEC) and audio-image generation in KUIS AI lab....
+    **Previously**: Worked on Turkish Grammatical Error Correction and Detection together with Atakan and Andrew.
+    <br>
+    **Currently**: M.S. in Computer Science at UC Irvine.
 
 profile:
     name: Farrin Marouf Sofian
