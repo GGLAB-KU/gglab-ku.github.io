@@ -16,7 +16,7 @@ teaser: >
 profile:
     name: Subha Vadlamannati
     align: right
-    image: mems/vadlamannati-profile.jpg
+    image: mems/vadlamannati-profile.webp
     role: Intern
     email: subhavee2@gmail.com
 

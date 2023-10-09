@@ -16,7 +16,7 @@ teaser: >
 profile:
     name: MSc Abdalfatah Rashid Safa
     align: right
-    image: mems/safa-profile.jpeg
+    image: mems/safa-profile.webp
     role: Doctoral Researcher
     email: asafa22@ku.edu.tr
 

@@ -16,7 +16,7 @@ teaser: >
 profile:
     name: Arda Uzunoğlu
     align: right
-    image: mems/uzunoglu-profile.jpg
+    image: mems/uzunoglu-profile.webp
     role: Intern
     email: ardauzunogluarda@gmail.com
     address: >

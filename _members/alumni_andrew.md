@@ -16,7 +16,7 @@ teaser: >
 profile:
     name: Andrew Yong-Xern Bond
     align: right
-    image: mems/bond-profile.jpeg
+    image: mems/bond-profile.webp
     role: Intern
     email: abond19@ku.edu.tr
 ---

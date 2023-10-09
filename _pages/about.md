@@ -10,7 +10,7 @@ description: Welcome to the GGLab at Koç University. Team. Projects.
 profile:
   name: GGLab, NLP Research Group at Koç University
   align: left
-  image: new_group.JPG
+  image: new_group.webp
   image_circular: false # crops the image to make it circular
   image_caption: Group Members (2023)
   email: gosahin@ku.edu.tr

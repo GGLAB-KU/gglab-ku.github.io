@@ -16,7 +16,7 @@ teaser: >
 profile:
     name: Ali Gebeşçe
     align: right
-    image: mems/gebesce-profile.jpg
+    image: mems/gebesce-profile.webp
     role: Undergrad Intern
     email: agebesce17@ku.edu.tr
 

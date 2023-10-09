@@ -18,7 +18,7 @@ teaser: >
 profile:
     name: MSc Müge Kural
     align: right
-    image: mems/kural-profile.jpg
+    image: mems/kural-profile.webp
     role: Doctoral Researcher
     email: mugekural@ku.edu.tr
 

@@ -17,7 +17,7 @@ profile:
     name: Asst. Prof. Gözde Gül Şahin
     position: Head of GGLab
     align: right
-    image: mems/sahin-profile.jpg
+    image: mems/sahin-profile.webp
     email: gosahin@ku.edu.tr
     twitter: gozde_gul_sahin
     orcid: 0000-0002-0332-1657

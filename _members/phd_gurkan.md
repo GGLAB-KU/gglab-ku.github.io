@@ -16,7 +16,7 @@ teaser: >
 profile:
   name: MSc Gürkan Soykan
   align: right
-  image: mems/soykan-profile.jpg
+  image: mems/soykan-profile.webp
   role: Doctoral Researcher
   email: gsoykan20@ku.edu.tr
 
