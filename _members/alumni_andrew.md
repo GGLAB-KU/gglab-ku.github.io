@@ -11,8 +11,9 @@ lastname: Bond
 publications: 'author^=*Bond'
 
 teaser: >
-    I earned my B.S. in CE from Koç University. I worked on Grammatical Error Correction  
-
+    **Previously**: Worked on Turkish Grammatical Error Correction and Detection together with Atakan and Farrin.
+    <br>
+    **Currently**: PhD Student at Koç University.
 profile:
     name: Andrew Yong-Xern Bond
     align: right

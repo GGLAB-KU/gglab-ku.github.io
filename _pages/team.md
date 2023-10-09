@@ -27,7 +27,7 @@ nav_rank: 2
                     <h5 class="card-title">{{ member.profile.name }}</h5>
                     {% if member.profile.position %}<h6 class="card-subtitle mb-2 text-muted">{{ member.profile.position }}</h6>{% endif %}
                     <p class="card-text">
-                        {{ member.teaser }}
+                        {{ member.teaser | markdownify }}
                     </p>
                     {% if member.inline == false %}</a>{% endif %}
                     {% if member.profile.email %}

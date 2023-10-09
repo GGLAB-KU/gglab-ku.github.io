@@ -11,7 +11,9 @@ lastname: Kara
 publications: 'author^=*Kara'
 
 teaser: >
-    I earned my B.S. in CE and Mathematics from Koç University. I worked on Grammatical Error Correction and Legal NLP...
+    **Previously**: Worked on Turkish Grammatical Error Correction and Detection together with Andrew and Farrin.
+    <br>
+    **Currently**: AI Research Engineer at Codeway Studios.
 
 profile:
     name: Atakan Kara

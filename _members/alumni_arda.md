@@ -11,7 +11,9 @@ lastname: Uzunoğlu
 publications: 'author^=*Uzunoğlu'
 
 teaser: >
-    I was a research intern between 05.2022-05.2023 at GGLab working on procedural language understanding benchmark.
+    **Previously**: Worked on Procedural Language Understanding Benchmark.
+    <br>
+    **Currently**: Undergraduate CS student at Johns Hopkins University and undergraduate researcher at JHU Center for Language and Speech Processing.
 
 profile:
     name: Arda Uzunoğlu
