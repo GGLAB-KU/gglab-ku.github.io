@@ -1,10 +1,6 @@
-"ACL":
-  url: https://aclanthology.org/venues/acl/
-  color: "#ff3200"
-
 "EACL":
   url: https://aclanthology.org/venues/eacl/
-  color: "#e37575"
+  color: "#ff3200"
 
 
 "IJCNLP-AACL":
