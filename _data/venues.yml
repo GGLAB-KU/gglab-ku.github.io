@@ -1,6 +1,12 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"EACL":
+  url: https://aclanthology.org/venues/eacl/
+  color: "#ff3200"
 
-"PhysRev":
-  url: https://journals.aps.org/
+
+"IJCNLP-AACL":
+  url: https://aclanthology.org/venues/ijcnlp/
+  color: "#c27ba0"
+
+"INLG":
+  url: https://aclanthology.org/venues/inlg/
+  color: "#e6ba8d"
