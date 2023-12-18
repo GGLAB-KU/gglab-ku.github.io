@@ -2,16 +2,15 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title:  # the website title (if blank, full name will be used instead)
-first_name: 
-middle_name: 
-last_name: 
+title: GGLab  # the website title (if blank, full name will be used instead)
+first_name:
+middle_name:
+last_name:
 email: gosahin@ku.edu.tr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Homepage for GGLab@Koc
-footer_text: >
-  Photos from <a href="https://www.freepik.com/" target="_blank">Freepik</a>.
-keywords: natural language processing, NLP, AI, Language Models, LLM   # add your own keywords or leave empty
+footer_text: GGLab. Photos from <a href="https://www.freepik.com/" target="_blank">Freepik</a>.
+keywords: natural language processing, NLP, AI, Language Models, LLM, Koç Üniversitesi, Koc University   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon144x144.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -61,8 +60,8 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
@@ -122,7 +121,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name:  # blog_name will be displayed in your blog page
 blog_nav_title: # your blog must have a title for it to be displayed in the nav bar
-blog_description: 
+blog_description:
 permalink:
 
 # Pagination
@@ -166,6 +165,9 @@ collections:
   members:
     output: true
     permalink: /members/:path
+  reading-group:
+    output: true
+    permalink: /reading-group/:path
 
 announcements:
   enabled: true
