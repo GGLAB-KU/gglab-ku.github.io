@@ -10,3 +10,7 @@
 "INLG":
   url: https://aclanthology.org/venues/inlg/
   color: "#e6ba8d"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#c6c6c6"

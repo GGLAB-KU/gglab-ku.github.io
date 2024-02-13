@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: GGLab  # the website title (if blank, full name will be used instead)
-first_name:
+title: blank  # the website title (if blank, full name will be used instead)
+first_name: GGLab
 middle_name:
 last_name:
 email: gosahin@ku.edu.tr
