@@ -1,17 +1,16 @@
 ---
 layout: about
 inline: false
-group: PhD
-group_rank: 2
-team_frontpage: true
+group: Former visitors, BSc/ MSc students, Interns
+group_rank: 5
+team_frontpage: false
 
 title: MSc Müge Kural
-description: Profile of Müge Kural, Doctoral Researcher at the GGLab.
+description: Profile of Müge Kural, Ex Doctoral Researcher at the GGLab.
 lastname: Kural
 publications: 'author^=*Kural'
 
 teaser: >
-    I am a second-year Ph.D. student at GGLab and KUIS AI.
     I work on reasoning in LLMs.   
     My research interests include social reasoning in AI, human-AI interaction, and explainable AI.
 
