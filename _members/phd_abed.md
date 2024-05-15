@@ -5,7 +5,7 @@ group: PhD
 group_rank: 2
 team_frontpage: true
 
-title: MSc Abdalfatah Rashid Safa
+title: MSc Abdulfattah Rashid Safa
 description: Profile of Abdulfattah Rashid Safa, Doctoral Researcher at the GGLab.
 lastname: Safa
 publications: 'author^=*Safa'
@@ -14,7 +14,7 @@ teaser: >
     I am a second-year Ph.D. student at GGLab, working task-oriented dialogue systems.
 
 profile:
-    name: MSc Abdalfatah Rashid Safa
+    name: MSc Abdulfattah Rashid Safa
     align: right
     image: mems/safa-profile.webp
     role: Doctoral Researcher

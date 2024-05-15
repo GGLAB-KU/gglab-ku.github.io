@@ -3,7 +3,7 @@ layout: about
 inline: false
 group: Undergrad Intern
 group_rank: 4
-team_frontpage: true
+team_frontpage: false
 
 title: Mina Durhasan
 description: Profile of Mina Durhasan, Bachelor Student at Koç University.
