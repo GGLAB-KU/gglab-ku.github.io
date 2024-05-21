@@ -5,15 +5,15 @@ group: Former visitors, BSc/ MSc students, Interns
 group_rank: 5
 team_frontpage: false
 
-title: MSc Tilek Chubakov
-description: Profile of Tilek Chubakov, Doctoral Researcher at UKP, TU Darmstadt.
+title: Tilek Chubakov
+description: Tilek Chubakov, Independent Researcher
 lastname: Chubakov
 publications: 'author^=*Chubakov'
 
 teaser: >
     **Previously**: Worked on computational morphology and Human-AI interaction.
     <br>
-    **Currently**: PhD Student at UKP Lab, TU Darmstadt.
+    **Currently**: Recently was a PhD Student at UKP Lab, TU Darmstadt. Now work as an independent researcher.
     
 profile:
     name: Tilek Chubakov
@@ -25,4 +25,4 @@ profile:
         Germany
 ---
 
-I was a visiting research student at the GGLab after doing my master's at UC Berkeley. I spent a wonderful year working on computational morphology and Human-AI interaction. This year I started my PhD at UKP Lab, TU Darmstadt where I will be working on multimodal NLP.
+I was a visiting research student at the GGLab after doing my master's at UC Berkeley. I spent a wonderful year working on computational morphology and Human-AI interaction. In 2023 I started my PhD at UKP Lab, TU Darmstadt where I was working on multimodal NLP. I have left to pursue an independent researcher project in NLP & Cognitive Science.
