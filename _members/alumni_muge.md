@@ -5,7 +5,7 @@ group: Former visitors, BSc/ MSc students, Interns
 group_rank: 5
 team_frontpage: false
 
-title: MSc Müge Kural
+title: Müge Kural
 description: Profile of Müge Kural, Ex Doctoral Researcher at the GGLab.
 lastname: Kural
 publications: 'author^=*Kural'
@@ -15,7 +15,7 @@ teaser: >
     My research interests include social reasoning in AI, human-AI interaction, and explainable AI.
 
 profile:
-    name: MSc Müge Kural
+    name: Müge Kural
     align: right
     image: mems/kural-profile.webp
     role: Doctoral Researcher

@@ -5,8 +5,8 @@ group: Masters
 group_rank: 3
 team_frontpage: true
 
-title: BSc Hulki Çıray
-description: Profile of BSc Hulki Çıray, Student Researcher at GGLab.
+title: Hulki Çıray
+description: Profile of Hulki Çıray, Researcher at GGLab.
 lastname: Çıray
 publications: 'author^=*Çıray'
 
@@ -16,7 +16,7 @@ teaser: >
 
 
 profile:
-    name: BSc Hulki Çıray
+    name: Hulki Çıray
     align: right
     image: mems/ciray-profile.webp
     role: Masters

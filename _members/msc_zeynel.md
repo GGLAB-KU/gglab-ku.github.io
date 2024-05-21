@@ -5,8 +5,8 @@ group: Masters
 group_rank: 3
 team_frontpage: true
 
-title: BSc Zeynel Uluşan
-description: Profile of BSc Zeynel Uluşan, Student Researcher at GGLab.
+title: Zeynel Uluşan
+description: Profile of Zeynel Uluşan, Researcher at GGLab.
 lastname: Uluşan
 publications: 'author^=*Uluşan'
 
@@ -16,7 +16,7 @@ teaser: >
 
 
 profile:
-    name: BSc Zeynel Uluşan
+    name: Zeynel Uluşan
     align: right
     image: mems/ulusan-profile.webp
     role: Masters

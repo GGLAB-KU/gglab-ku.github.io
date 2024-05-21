@@ -5,7 +5,7 @@ group: PhD
 group_rank: 2
 team_frontpage: true
 
-title: BSc Tamta Kapanadze
+title: Tamta Kapanadze
 description: Profile of Tamta Kapanadze, Doctoral Researcher at the GGLab.
 lastname: Kapanadze
 publications: 'author^=*Kapanadze'

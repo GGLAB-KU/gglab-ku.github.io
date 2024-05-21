@@ -5,7 +5,7 @@ group: Masters
 group_rank: 3
 team_frontpage: true
 
-title: BSc Ali Gebeşçe
+title: Ali Gebeşçe
 description: Profile of Ali Gebeşçe, Student Researcher at GGLab.
 lastname: Gebeşçe
 publications: 'author^=*Gebeşçe'
@@ -14,7 +14,7 @@ teaser: >
     I earned my Bachelor of Science degree in Computer Science from Koç University and am a first-year M.Sc. student in Computer Science and Engineering at Koç University.
 
 profile:
-    name: BSc Ali Gebeşçe
+    name: Ali Gebeşçe
     align: right
     image: mems/gebesce-profile.webp
     role: Undergrad Intern
