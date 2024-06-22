@@ -1,19 +1,21 @@
 ---
-layout: about
-inline: true
+layout: page
 title: Terminology-Grounded Translation
-description: Bridging the Gap Between Wikipedians and Scientists with Terminology-Aware Translation A Case Study in Turkish
-
-img: assets/img/projects/alfalfas.webp
+img: assets/img/projects/wikimedia.webp
+importance: 2
+related_publications: true
 img_contains_title: true
 publications: 'projects^=*terminology'
-
-profile:
-    name: Terminology-Grounded Translation
-    image: projects/alfalfas.webp
-    align: left
-    address: >
 ---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/wikimedia.webp" title="pipeline" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The pipeline of our proposed project.
+</div>
 
 ## Bridging the Gap Between Wikipedians and Scientists with Terminology-Aware Translation: A Case Study in Turkish 
 
@@ -37,6 +39,4 @@ The project will focus on the following tasks:
  - Ali Gebeşçe (Masters student)
 
 ### Funding
-This project is funded by Wikimedia Research Fund. Official URL for the funded project:[https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Research_Fund/Bridging_the_Gap_Between_Wikipedians_and_Scientists_with_Terminology-Aware_Translation:_A_Case_Study_in_Turkish
-](https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Research_Fund/Bridging_the_Gap_Between_Wikipedians_and_Scientists_with_Terminology-Aware_Translation:_A_Case_Study_in_Turkish)
-
+This project is funded by Wikimedia Research Fund. Official URL for the funded project is [here](https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Research_Fund/Bridging_the_Gap_Between_Wikipedians_and_Scientists_with_Terminology-Aware_Translation:_A_Case_Study_in_Turkish).
