@@ -14,7 +14,7 @@ teaser: >
     I earned my Bachelor of Science degree in Computer Science from Carnegie Mellon University and am a first-year Ph.D. student in Computer Science and Engineering at Koç University.
 
 profile:
-    name: BSc Tamta Kapanadze
+    name: Tamta Kapanadze
     align: right
     image: mems/kapanadze-profile.webp
     role: Doctoral Researcher
