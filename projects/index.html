@@ -10,9 +10,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ALfaLFas | GGLab  </title>
+    <title>Projects | GGLab  </title>
     <meta name="author" content="GGLab  ">
-    <meta name="description" content="Automatic Learning of Procedural Language from Natural Language Instructions for Intelligent Assistance">
+    <meta name="description" content="Homepage for GGLab@Koc
+">
     <meta name="keywords" content="natural language processing, NLP, AI, Language Models, LLM">
 
 
@@ -38,7 +39,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon144x144.png">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://gglab-ku.github.io/projects/ALfaLFas/">
+    <link rel="canonical" href="https://gglab-ku.github.io/projects/">
 
     <!-- Dark Mode -->
     
@@ -89,6 +90,8 @@
           
           
           
+          
+          
           <li class="nav-item ">
               <a class="nav-link text-nowrap" href="/">
                 Home
@@ -107,9 +110,11 @@
           
           
           
-          <li class="nav-item ">
-              <a class="nav-link text-nowrap" href="/projects">
+          <li class="nav-item active">
+              <a class="nav-link text-nowrap" href="/projects/">
                 Projects
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -152,95 +157,102 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           <span class="font-weight-bold">GGLab</span>  
-          </h1>
-          <p class="desc"></p>
-        </header>
+        <!-- page.html -->
+        <div class="post">
 
-        <article>
-          <div class="profile float-left">
+          <header class="post-header">
+            <h1 class="post-title">Projects</h1>
+            <p class="post-description"></p>
+          </header>
 
-              <figure>
+          <article>
+            <!-- pages/projects.md -->
+<div class="projects">
 
-  <picture>
+
+<!-- Display projects without categories -->
+
+
+
+  <!-- Generate cards for each project -->
+
+
+  <div class="row row-cols-1 row-cols-md-3">
     
+      <div class="col">
+  <a href="/projects/project_alfalfas/">
+    <div class="card h-100 hoverable">
+      
+        
 
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/projects/alfalfas.webp" class="img-fluid z-depth-1 rounded" width="auto" height="auto" alt="projects/alfalfas.webp" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/projects/alfalfas.webp" class="card-img-top" width="100%" height="auto" alt="project thumbnail" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
+  
 </figure>
 
-            <div class="address">
-              
-            </div>
-          </div>
-
-          <div class="clearfix">
-            <h2 id="automatic-learning-of-procedural-language-from-natural-language-instructions-for-intelligent-assistance">Automatic Learning oF ProcedurAl Language From NAtural Language InStructions for Intelligent Assistance</h2>
-
-<p><br></p>
-
-<h3 id="motivation">Motivation</h3>
-<p>Despite the number of studies that report exceptionally high scores (Devlin et. al., 2019) for downstream natural language processing (NLP) tasks, a growing number of studies discuss the gap between their performance on such tasks and on real-world tasks that require “understanding” (<a href="https://aclanthology.org/2020.acl-main.463.pdf" rel="external nofollow noopener" target="_blank">Bender &amp; Koller, 2020</a>). Some of the major causes for this are (i) neural models not being able to generalize to out-of-domain data, (ii) downstream tasks not containing the challenges of real-world scenarios and iii) not having suitable evaluation measures.</p>
-
-<p>In order to bring the performance on real-life and downstream tasks closer, this project proposes a novel task for understanding natural language utterances within a more realistic and challenging scope: <strong>understanding human-written instructions</strong>. Giving step-by-step instructions is one of the primary way of human communication to teach someone a new topic or a task. The research plan envisions a future, where people would also be able to instruct machines with such step-by-step instructions, and this research project aims to take the first step towards that goal by developing necessary tools to parse natural language utterances into a sequence of procedures. The advantage of having such a representation would be having the ability to reduce the statements automatically by using an off-the-shelf interpreter and enrich the final model with domain-specific knowledge/rules which cannot be easily learned from data.</p>
-
-<p>A subfield of lingustics, semantics—the study of meaning—has researched how to <em>best represent meaning</em> for decades. The number of theorems that are introduced are too many to list here, however most theorems underline some common challenges such as <em>quantifiers, negation scope</em> and propose a way to address them in their representation scheme. However most of these representations are designed for sentences, ignoring the <em>inter-sentential connections</em> (e.g., After, then, because) and <em>co-referring with pronouns</em> (e.g., Sue is sick. She (Sue) won’t work tomorrow). Another prominent problem that occurs specifically in instruction text is <em>zero anaphora</em>. Imagine the 2-step procedure: “Mix the macaroni and cheese. Bake for 10 minutes.”. Here what to bake and where to bake are not explicitly stated but inferred from the context. Finally, referring is mostly done to an implicit (non-existing in text) object. For instance if we said “Bake it for 10 minutes”, it would refer to the product of the mixing action.Therefore, the first central research question is: “What is the best way to represent the meaning of step-by-step instructions?”.</p>
-
-<p>Another major challenge arises when we want build models to <em>parse instructions from various domains into executable procedures</em>. We want a model trained with car repair instructions that contains some mixing actions (e.g., mixing paints) to be able to parse a cooking instruction that contains a mixing action correctly. Even though this is fairly easy for humans—thanks to our conceptual reasoning abilities— machines tend to overfit and not generalize to unseen domains, and similarly to unseen instructions. One way to tackle this challenge is to develop models, or improve existing models, with conceptual reasoning abilities. Extraction of concepts, however, requires the ability to identify and remember the reoccurring, important patterns and abstracting them from their surface forms, i.e., symbolize them. Hence the second central research question we pose in this project is: “How can we build generalizable models for processing raw text into well-defined procedures?”.</p>
-
-<p>Final obstacle that stands on the way is the <em>right evaluation measures</em> to track the progress in the direction of generalizable natural language processing models. The task we define already sets up a realistic measure, however, measuring the progress with one single score has been shown to be problematic. The reasons are as follows. First of all, neural models are not interpretable. Hence their strengths and weaknesses can not be analyzed simply by looking at a single score. Second, a single score only shows how good a model performs on this specific test set, rather than how good a model is by means of the skills required by the task (e.g., logical deduction, mathematical reasoning). As mentioned, this project hypothesizes that improving the ability of long-range reasoning would yield more generalizable models. That brings us to the final research question: “Which reasoning/logical skills are required for processing instructions?” and “How can we measure these skills adequately?”</p>
-
-<h3 id="goals">Goals</h3>
-
-<p>The project will investigate three major research directions to answer the aforementioned RQs:</p>
-
-<ul>
-  <li>Large, Structured Dataset of Procedural Information Spanning Multiple Domains: In order to
-conduct research on data-driven and generalizable models for procedural language understanding, the
-field requires large amounts of annotated corpora of goal-oriented instructions and procedures from
-variety of domains.</li>
-  <li>Evaluation Benchmark for Distinct Cognitive Abilities: The task of interpreting procedures
-encloses various linguistic and reasoning challenges. Nonetheless, the researchers are inclined to
-evaluate only on the end result using a single score.</li>
-  <li>Neural/Hybrid Models with Long-Range Reasoning Abilities for Procedural Text: We will contribute with i) investigating the generalizability of existing techniques on the procedural text, and ii) developing novel models inspired from existing cognitive architectures.</li>
-</ul>
-
-<h3 id="team">Team</h3>
-
-<ul>
-  <li>Asst. Prof. Gözde Gül Şahin</li>
-  <li>Abdalfatah Rashid Safa, MSc, Müge Kural, MSc</li>
-</ul>
-
-<h3 id="funding">Funding</h3>
-
-<p>This project (ID:1109B322100424) is funded within the scope of Tübitak 2232B International Fellowship for Outstanding Researchers funding scheme. (Funding Period: 09.2022-09.2025)</p>
-
-<h3 id="credit">Credit</h3>
-<p><a href="https://www.freepik.com/free-photo/3d-render-robot-with-books_1166338.htm#query=robot%20reading%20instruction&amp;position=0&amp;from_view=search&amp;track=ais" rel="external nofollow noopener" target="_blank">Image by kjpargeter</a> on Freepik</p>
-
-          </div>
-
-          <!-- News -->
+      
+      <div class="card-body">
+        <h2 class="card-title">ALfaLFas</h2>
+        <p class="card-text"></p>
+        <div class="row ml-1 mr-1 p-0">
           
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
 
-          <!-- Latest posts -->
+    
+      <div class="col">
+  <a href="/projects/project_wikimedia/">
+    <div class="card h-100 hoverable">
+      
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/projects/wikimedia.webp" class="card-img-top" width="100%" height="auto" alt="project thumbnail" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+      
+      <div class="card-body">
+        <h2 class="card-title">Terminology-Grounded Translation</h2>
+        <p class="card-text"></p>
+        <div class="row ml-1 mr-1 p-0">
           
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
 
-          <!-- Selected papers -->
-          
-
-          <!-- Social -->
-        </article>
+    
+  </div>
+  
 
 </div>
+
+          </article>
+
+        </div>
 
       
     </div>
@@ -249,7 +261,7 @@ evaluate only on the end result using a single score.</li>
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2024 GGLab  . Photos from <a href="https://www.freepik.com/" target="_blank" rel="external nofollow noopener">Freepik</a>.
-Last updated: May 21, 2024.
+Last updated: June 30, 2024.
       </div>
     </footer>
 
