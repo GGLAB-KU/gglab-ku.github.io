@@ -7,18 +7,9 @@ nav_rank: 5
 nav: true
 ---
 
-We are looking for talented students who are interested in doing research on natural language processing.
+We are always looking for talented, enthusiastic students who are interested in doing research on natural language processing.
 At the moment,
-**Undergraduate internships**, **Masters**, and **PhD positions** are available.
-
-The positions will focus on understanding and processing procedural language provided as natural language instructions (e.g., step-by-step instructions to fix WiFi). Some of the topics are (but are not limited to):
-
-- Investigating and designing neural/hybrid models with long-range reasoning on procedural text,
-- Document-grounded task-oriented dialogue on procedural text, and    
-- Designing evaluation metrics and benchmarks for procedural text
-
-The position will also be affiliated with KUIS AI, a thriving international research environment with more than 50 graduate students working on NLP-related topics spread over computer vision, robotics, machine learning, and human-computer interaction. Successful candidates will have the opportunity to collaborate closely with other researchers at the KUIS AI and at Koç University. The primary communication language is English. The preferred starting date is as soon as possible. 
-
+**Undergraduate internships**, **Masters**, and **PhD positions** are available. Please check our on-going projects page, and latest publications before applying.   
 
 **Qualifications**
 
@@ -26,7 +17,7 @@ The ideal candidates should be enthusiastic about natural language processing, h
 
 **Offer**
 
-Salary: Current KUIS AI fellowship salaries are 11.200TL/mo for MSc and 18.600TL/mo for Ph.D. students. Scholarship raises after a qualified publication as the first author: 1000 TL/mo for MS, 1500 TL/mo for Ph.D., to be re-evaluated every semester. 
+Salary: Please check the [KUIS AI page](https://ai.ku.edu.tr/education/programs/graduate-programs/ai-fellowships/) for the latest information on fellowships.    
 
 Travel: Full support for top-tier conference publications.
 
@@ -38,7 +29,7 @@ Side benefits: Private health insurance, meal card, and student housing based on
 
 If you are interested in any of the positions, please send an email to [<i class="fas fa-envelope"></i> gosahin [at] ku.edu.tr](mailto:gosahin@ku.edu.tr) with the subject "Ph.D. (or MS) application". Please send a CV (including publications, if applicable), transcript (or records), a copy of a work that you're most proud of (e.g., Master's thesis, conference paper), and a motivation letter stating your research interests. 
 
-The official application still needs to be done via the application portal as instructed here. The official deadline is the 4th of June, however, the applications will be reviewed on a regular basis. Please indicate "NLP" and "Procedural text" as your research interests and mention Dr. Gözde Gül Şahin in your Statement of Purpose. 
+The official application still needs to be done via the application portal as instructed here. Please indicate "NLP" as your research interest and mention Dr. Gözde Gül Şahin in your Statement of Purpose, so that it won't be missed. 
 
 
 **Why Koç University?**
