@@ -162,9 +162,7 @@
           </header>
 
           <article>
-            <h3 id="bridging-the-gap-between-wikipedians-and-scientists-with-terminology-aware-translation-a-case-study-in-turkish">Bridging the Gap Between Wikipedians and Scientists with Terminology-Aware Translation: A Case Study in Turkish</h3>
-
-<p><br> This project addresses the gap between the escalating volume of English-to-Turkish Wikipedia translations and the insufficient number of contributors, particularly in technical domains. Leveraging expertise from academics’ collaborative terminology dictionary effort, we propose a pipeline system to enhance translation quality. Our focus is on bridging academic and Wikipedia communities, creating datasets, and developing NLP models for terminology identification and retrieval, and terminology-aware translation. The aim is to foster sustained contributions and improve the overall quality of Turkish Wikipedia articles.</p>
+            <h4 id="seminar-i-announcement">Seminar I Announcement</h4>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -178,7 +176,40 @@
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-    <img src="/assets/img/projects/wikimedia.webp" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="pipeline" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/projects/seminar.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Pipeline of the project" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+
+<p><strong>Abstract:</strong> Current automated translation tools struggle with translating terminology-heavy, technical texts effectively. This limitation, combined with a lack of sufficient contributions, has widened the gap between English-to-Turkish Wikipedia translations, particularly in technical fields. Our project seeks to bridge this gap by fostering collaboration between academic and Wikipedia communities to improve the quality of translations. We aim to develop datasets and build NLP models for terminology identification, linking, and terminology-aware translation. As part of our work, we have developed an English-Turkish terminology-based dataset designed to enhance translation models. In this seminar, we will introduce the dataset, outline the processes followed during its creation, and discuss its evaluation and potential applications in improving translation accuracy. Additionally, we will present the results of surveys conducted with both domain experts and Wikipedia contributors to explore their expertise, translation experiences, and engagement with Wikipedia. These findings will shed light on the specific challenges faced by both communities in terminology-based translation.</p>
+
+<p><strong>Bio:</strong> Gözde Gül Şahin received her Ph.D. from the Computer Engineering Department of Istanbul Technical University, specializing in Natural Language Processing (NLP) under the supervision of Prof. Eşref Adalı. After her Ph.D., she worked as a postdoctoral researcher at the UKP Lab, Technical University of Darmstadt, under the guidance of Prof. Iryna Gurevych. Since February 2022, she has been an Assistant Professor at Koç University, where she is affiliated with <a href="https://ai.ku.edu.tr/" rel="external nofollow noopener" target="_blank">KUIS AI</a> and <a href="https://gglab-ku.github.io/">GGLab</a>. Her research focuses on advancing NLP through machine learning models and open-access tools/datasets for the world’s languages, particularly for underrepresented languages. Her interests also include semantics, procedural language, and the abstraction and reasoning capabilities of large language models.</p>
+
+<h3 id="register-for-the-seminar">Register for the Seminar</h3>
+
+<p>We invite everyone interested in terminology-grounded translation and NLP to join our seminar. Please register using <a href="https://forms.gle/juE6pnz94EmBAc9z9" rel="external nofollow noopener" target="_blank"><strong>this form</strong></a>.</p>
+
+<hr>
+
+<h2 id="bridging-the-gap-between-wikipedians-and-scientists-with-terminology-aware-translation-a-case-study-in-turkish">Bridging the Gap Between Wikipedians and Scientists with Terminology-Aware Translation: A Case Study in Turkish</h2>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/projects/wikimedia.webp" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Project pipeline" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
   
@@ -190,39 +221,51 @@
     The pipeline of our proposed project.
 </div>
 
-<h4 id="goals">Goals</h4>
+<p>This project addresses the gap between the growing volume of English-to-Turkish Wikipedia translations and the limited number of contributors, particularly in technical domains. By leveraging the collaborative efforts of academics in building terminology dictionaries, we propose a pipeline system to improve translation quality. Our focus is on fostering collaboration between academic and Wikipedia communities, creating datasets, and developing NLP models for terminology identification, retrieval, and terminology-aware translation. The goal is to encourage sustained contributions and enhance the overall quality of Turkish Wikipedia articles.</p>
+
+<h3 id="project-goals">Project Goals</h3>
 
 <p>The project will focus on the following tasks:</p>
 
 <ul>
   <li>
-    <p><strong>High-quality parallel corpora for terminology-aware translation:</strong> We aim to generate 3,000 parallel sentences in English-Turkish containing the following: i)English text annotated with the technical terms, ii) links to correct terminology entries in the database, and iii) edited translations using the correct terminology with Turkish terms.</p>
+<strong>High-Quality Parallel Corpora for Terminology-Aware Translation:</strong> We aim to generate 3,000 parallel English-Turkish sentences that include:
+    <ol>
+      <li>English text annotated with technical terms,</li>
+      <li>Links to the correct terminology entries in the database,</li>
+      <li>Edited translations using the correct Turkish terminology.</li>
+    </ol>
   </li>
   <li>
-    <p><strong>Term Identification:</strong> Build models to identify the technical terms in a multilingual setup.</p>
+    <p><strong>Term Identification:</strong> Develop models to identify technical terms in a multilingual setup.</p>
   </li>
   <li>
-    <p><strong>Term Linking:</strong> Build models to ground the identified terms in a terminology database (if possible). In case the DB does not contain the term, make a notification system for the domain experts.</p>
+    <p><strong>Term Linking:</strong> Build models to link identified terms to a terminology database. If the term is not present in the database, a notification system will alert domain experts to add it.</p>
   </li>
   <li>
-    <p><strong>Terminology-Aware Translation:</strong> We will build post-editing and translation systems that will be constrained with the terminology database.</p>
-  </li>
-  <li>
-    <p><strong>Build an Effective Communication Channel:</strong> We will survey both communities (Wikipedians and scientists) to identify the best practices to build the bridges, and the ways these two communities can help each other in a sustainable way. We will publish reports, best practices and guidelines.</p>
-  </li>
+<strong>Terminology-Aware Translation:</strong> Develop post-editing and translation systems that adhere to the terminology database to ensure consistent and accurate translations.</li>
 </ul>
 
-<h4 id="team">Team</h4>
+<h3 id="project-team">Project Team</h3>
 
 <ul>
-  <li>PI: Gözde Gül Şahin</li>
-  <li>Graduate student(s): Ali Gebeşçe</li>
-  <li>Interns: Ege Uğur Amasya, Mina Durhasan</li>
-  <li>Duration: 01.06.2024 - 31.05.2025</li>
+  <li>
+<strong>Asst. Prof. Gözde Gül Şahin</strong> (Principal Investigator)</li>
+  <li>
+<strong>Ali Gebeşçe</strong> (Master’s Student)</li>
+  <li>
+<strong>Ege Uğur Amasya</strong> (Intern)</li>
 </ul>
 
-<h4 id="funding">Funding</h4>
-<p>This project is funded by Wikimedia Research Fund. Official URL for the funded project is <a href="https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Research_Fund/Bridging_the_Gap_Between_Wikipedians_and_Scientists_with_Terminology-Aware_Translation:_A_Case_Study_in_Turkish" rel="external nofollow noopener" target="_blank">here</a>.</p>
+<h4 id="former-team-members">Former Team Members</h4>
+<ul>
+  <li>
+<strong>Mina Durhasan</strong> (Intern)</li>
+</ul>
+
+<h3 id="funding">Funding</h3>
+
+<p>This project is funded by the Wikimedia Research Fund. The official project page can be found <a href="https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Research_Fund/Bridging_the_Gap_Between_Wikipedians_and_Scientists_with_Terminology-Aware_Translation:_A_Case_Study_in_Turkish" rel="external nofollow noopener" target="_blank">here</a>.</p>
 
           </article>
 
@@ -235,7 +278,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2024 GGLab  . Photos from <a href="https://www.freepik.com/" target="_blank" rel="external nofollow noopener">Freepik</a>.
-Last updated: August 16, 2024.
+Last updated: October 09, 2024.
       </div>
     </footer>
 
