@@ -23,14 +23,11 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-GGLab (pronounced as "cici" in Turkish) is a Natural Language Processing (NLP) research lab led by [Asst. Prof. Gözde Gül Şahin](https://gozdesahin.github.io/) with a focus on procedural language understanding, in particular, representation and evaluation of procedural text. We have a keen interest in conducting fundamental research in core methodologies, including but not limited to areas such as learning under low-resource settings, incorporating linguistic structures in language models and developing interpretable AI systems. Additionally, we explore how these methodologies can be applied to various tasks, such as text simplification, semantic analysis, morphological analysis, grammar error correction and answering questions. We are part of [Computer Science Department](https://cs.ku.edu.tr/) at [Koç University](https://www.ku.edu.tr/) and affiliated with [KUIS AI Lab](https://ai.ku.edu.tr/), located in the north of Istanbul, Türkiye. GGLab is partly funded by [Scientific and Technological Research Council of Türkiye](https://www.tubitak.gov.tr/) via Tübitak 2232B International Fellowship for Outstanding Researchers programme.   
+GGLab (pronounced as "cici" in Turkish) is a Natural Language Processing (NLP) research lab led by [Asst. Prof. Gözde Gül Şahin](https://gozdesahin.github.io/). We have a keen interest in conducting fundamental research in core methodologies, including but not limited to areas such as learning/performing under low-resource settings and incorporating expert knowledge in language technologies. Additionally, we explore how these methodologies can be applied to various tasks, such as text simplification, linguistic structure analysis, grammatical error correction, dialogue understanding and question answering. We are part of [Computer Science Department](https://cs.ku.edu.tr/) at [Koç University](https://www.ku.edu.tr/) and affiliated with [KUIS AI Lab](https://ai.ku.edu.tr/), located in the north of Istanbul, Türkiye. GGLab is partly funded by [Scientific and Technological Research Council of Türkiye](https://www.tubitak.gov.tr/) via Tübitak 2232B International Fellowship for Outstanding Researchers program, and [Wikimedia Foundation](https://wikimediafoundation.org/) via [Wikimedia Research Fund](https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Research_%26_Technology_Fund/Wikimedia_Research_Fund).   
 
 [Talk to us](mailto:gosahin@ku.edu.tr) or
 [join our group]({{ '/open-positions' | relative_url }})
 when you are interested in these topics or our work.
-Students at Koç University,
-please find [our courses]({{ '/teaching' | relative_url }})(coming soon).
-{: class="clearfix"}
 
 {% assign members = site.members | where: "team_frontpage", true | sort: "lastname" %}
 <div class="d-flex flex-wrap align-content-stretch justify-content-center m-n2 pt-5 no-gutters">
