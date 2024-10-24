@@ -8,25 +8,6 @@ img_contains_title: true
 publications: 'projects^=*terminology'
 ---
 
-#### Seminar I Announcement
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/seminar.jpg" title="Pipeline of the project" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-**Abstract:** Current automated translation tools struggle with translating terminology-heavy, technical texts effectively. This limitation, combined with a lack of sufficient contributions, has widened the gap between English-to-Turkish Wikipedia translations, particularly in technical fields. Our project seeks to bridge this gap by fostering collaboration between academic and Wikipedia communities to improve the quality of translations. We aim to develop datasets and build NLP models for terminology identification, linking, and terminology-aware translation. As part of our work, we have developed an English-Turkish terminology-based dataset designed to enhance translation models. In this seminar, we will introduce the dataset, outline the processes followed during its creation, and discuss its evaluation and potential applications in improving translation accuracy. Additionally, we will present the results of surveys conducted with both domain experts and Wikipedia contributors to explore their expertise, translation experiences, and engagement with Wikipedia. These findings will shed light on the specific challenges faced by both communities in terminology-based translation.
-
-**Bio:** Gözde Gül Şahin received her Ph.D. from the Computer Engineering Department of Istanbul Technical University, specializing in Natural Language Processing (NLP) under the supervision of Prof. Eşref Adalı. After her Ph.D., she worked as a postdoctoral researcher at the UKP Lab, Technical University of Darmstadt, under the guidance of Prof. Iryna Gurevych. Since February 2022, she has been an Assistant Professor at Koç University, where she is affiliated with [KUIS AI](https://ai.ku.edu.tr/) and [GGLab](https://gglab-ku.github.io/). Her research focuses on advancing NLP through machine learning models and open-access tools/datasets for the world's languages, particularly for underrepresented languages. Her interests also include semantics, procedural language, and the abstraction and reasoning capabilities of large language models.
-
-### Register for the Seminar
-
-We invite everyone interested in terminology-grounded translation and NLP to join our seminar. Please register using [**this form**](https://forms.gle/juE6pnz94EmBAc9z9).
-
-
----
-
 ## Bridging the Gap Between Wikipedians and Scientists with Terminology-Aware Translation: A Case Study in Turkish
 
 <div class="row">
