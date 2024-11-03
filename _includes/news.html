@@ -1,23 +1,227 @@
-<div class="news">
-  {% if site.news  %}
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-      {% assign news = site.news | reverse %}
-      {% for item in news limit: site.news_limit %}
-        <tr>
-          <th scope="row"  style="width: 100px">{{ item.date | date: "%b %Y" }}</th>
-          <td>
-            {% if item.inline %}
-              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-            {% else %}
-              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endif %}
-          </td>
-        </tr>
-      {% endfor %}
-      </table>
-    </div>
-  {% else %}
-    <p>No news so far...</p>
-  {% endif %}
+<div class="news-section">
+  <div class="news-header">
+    <!--h2 class="news-title">
+      <a href="{{ '/news/' | relative_url }}" class="all-news-link">Latest News</a>
+    </h2-->
+  </div>
+
+  <div class="news-carousel">
+    {% if site.news %}
+      <div class="carousel-container">
+        <div class="carousel-track">
+          {% assign news = site.news | reverse %}
+          {% for item in news limit: site.news_limit %}
+            <div class="carousel-slide">
+              <div class="news-date">{{ item.date | date: "%b %Y" }}</div>
+              <div class="news-content">
+                {% if item.inline %}
+                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                {% else %}
+                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        
+        <button class="carousel-button prev" aria-label="Previous slide">←</button>
+        <button class="carousel-button next" aria-label="Next slide">→</button>
+        
+        <div class="carousel-dots">
+          {% for item in news limit: site.news_limit %}
+            <button class="dot" aria-label="Go to slide {{ forloop.index }}"></button>
+          {% endfor %}
+        </div>
+      </div>
+    {% else %}
+      <p>No news so far...</p>
+    {% endif %}
+  </div>
+
+  <style>
+    .news-section {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .news-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .news-title {
+      margin: 0;
+      padding: 0;
+    }
+
+    .all-news-link {
+      color: #333;
+      text-decoration: none;
+      font-size: 1.5em;
+      font-weight: bold;
+      transition: color 0.3s ease;
+      display: inline-block;
+      padding: 10px;
+    }
+
+    .all-news-link:hover {
+      color: #0056b3;
+    }
+
+    .all-news-link::after {
+      content: ' →';
+      opacity: 0;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      display: inline-block;
+      transform: translateX(-5px);
+    }
+
+    .all-news-link:hover::after {
+      opacity: 1;
+      transform: translateX(5px);
+    }
+
+    .news-carousel {
+      position: relative;
+      padding: 20px 0;
+    }
+
+    .carousel-container {
+      position: relative;
+      overflow: hidden;
+      padding: 0 40px;
+    }
+
+    .carousel-track {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-slide {
+      flex: 0 0 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      opacity: 0.3;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .carousel-slide.active {
+      opacity: 1;
+    }
+
+    .news-date {
+      font-weight: bold;
+      color: #666;
+      margin-bottom: 8px;
+    }
+
+    .news-content {
+      font-size: 1.1em;
+    }
+
+    .carousel-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #fff;
+      border: 1px solid #ddd;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 10;
+      transition: all 0.3s ease;
+    }
+
+    .carousel-button:hover {
+      background: #f0f0f0;
+    }
+
+    .carousel-button.prev {
+      left: 0;
+    }
+
+    .carousel-button.next {
+      right: 0;
+    }
+
+    .carousel-dots {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 20px;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: none;
+      background: #ddd;
+      cursor: pointer;
+      padding: 0;
+      transition: background-color 0.3s ease;
+    }
+
+    .dot.active {
+      background: #666;
+    }
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const track = document.querySelector('.carousel-track');
+      const slides = Array.from(track.children);
+      const nextButton = document.querySelector('.next');
+      const prevButton = document.querySelector('.prev');
+      const dotsNav = document.querySelector('.carousel-dots');
+      const dots = Array.from(dotsNav.children);
+
+      const slideWidth = slides[0].getBoundingClientRect().width;
+
+      // Arrange slides next to each other
+      slides.forEach((slide, index) => {
+        slide.style.left = slideWidth * index + 'px';
+      });
+
+      let currentSlide = 0;
+      
+      function moveToSlide(targetIndex) {
+        if (targetIndex < 0) targetIndex = slides.length - 1;
+        if (targetIndex >= slides.length) targetIndex = 0;
+        
+        currentSlide = targetIndex;
+        
+        // Move the track
+        track.style.transform = `translateX(-${slideWidth * currentSlide}px)`;
+        
+        // Update slides opacity
+        slides.forEach((slide, index) => {
+          slide.classList.toggle('active', index === currentSlide);
+        });
+        
+        // Update dots
+        dots.forEach((dot, index) => {
+          dot.classList.toggle('active', index === currentSlide);
+        });
+      }
+
+      // Click events for buttons
+      nextButton.addEventListener('click', () => moveToSlide(currentSlide + 1));
+      prevButton.addEventListener('click', () => moveToSlide(currentSlide - 1));
+
+      // Click events for dots
+      dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => moveToSlide(index));
+      });
+
+      // Initialize first slide
+      moveToSlide(0);
+
+      // Auto-advance slides every 5 seconds
+      setInterval(() => {
+        moveToSlide(currentSlide + 1);
+      }, 5000);
+    });
+  </script>
 </div>
