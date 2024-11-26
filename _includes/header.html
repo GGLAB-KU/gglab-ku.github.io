@@ -4,8 +4,18 @@
     <nav id="navbar" class="navbar navbar-light navbar-expand">
     <div class="container px-md-3">
       <a href="{{ '/' | relative_url }}" class="{% if page.title == 'Home' %}active{% endif %}">
-        <img src="{{ '/assets/img/gg-logo.png' | relative_url }}" alt="{% if site.title != 'blank' %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}{% endif %}"/>
+        <img 
+          src="{{ '/assets/img/gglab-logo-light.png' | relative_url }}" 
+          alt="{% if site.title != 'blank' %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}{% endif %}"
+          class="logo repo-img-light"
+        />
+        <img 
+          src="{{ '/assets/img/gglab-logo-dark.png' | relative_url }}" 
+          alt="{% if site.title != 'blank' %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}{% endif %}"
+          class="logo repo-img-dark"
+        />
       </a>
+      
       {% comment %}
       {% if page.title != "about" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
