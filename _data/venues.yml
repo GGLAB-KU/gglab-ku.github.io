@@ -2,7 +2,6 @@
   url: https://aclanthology.org/venues/eacl/
   color: "#ff3200"
 
-
 "IJCNLP-AACL":
   url: https://aclanthology.org/venues/ijcnlp/
   color: "#c27ba0"
@@ -11,6 +10,18 @@
   url: https://aclanthology.org/venues/inlg/
   color: "#e6ba8d"
 
+"NAACL":
+  url: https://naacl.org/
+  color: "#7a9b76"  
+
+"CHI":
+  url: https://chi2025.acm.org/
+  color: "#4682b4"
+
+"COLING":
+  url: https://aclanthology.org/venues/coling/
+  color: "#ff9900"
+
 "arXiv":
   url: https://arxiv.org/
-  color: "#c6c6c6"
+  color: "#8b4513"  # Changed to a deep brown for distinction
