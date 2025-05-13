@@ -1,5 +1,20 @@
 ---
 ---
+@inproceedings{gebeşçe2024quantifying,
+      abbr = {CHI},
+      bibtex_show  = {true},
+      pdf = {2312.08722.pdf},
+      title={Quantifying Divergence for Human-AI Collaboration and Cognitive Trust},
+      author={Ali Gebeşçe and Müge Kural and Tilek Chubakov and Gözde Gül Şahin},
+      year = {2025},
+	  isbn = {9798400713958},
+	  url = {https://doi.org/10.1145/3706599.3720105},
+	  doi = {10.1145/3706599.3720105},
+	  publisher = {Association for Computing Machinery},
+	  month={April},
+	  address = {New York, NY, USA},
+      abstract = "Predicting the collaboration likelihood and measuring cognitive trust to AI systems is more important than ever. To do that, previous research mostly focus solely on the model features (e.g., accuracy, confidence) and ignore the human factor. To address that, we propose several decision-making similarity measures based on divergence metrics (e.g., KL, JSD) calculated over the labels acquired from humans and a wide range of models. We conduct a user study on a textual entailment task, where the users are provided with soft labels from various models and asked to pick the closest option to them. The users are then shown the similarities/differences to their most similar model and are surveyed for their likelihood of collaboration and cognitive trust to the selected system. Finally, we qualitatively and quantitatively analyze the relation between the proposed decision-making similarity measures and the survey results. We find that people tend to collaborate with their most similar models -- measured via JSD -- yet this collaboration does not necessarily imply a similar level of cognitive trust. We release all resources related to the user study (e.g., design, outputs), models, and metrics at our repo."
+}
 @misc{safa2024systematicsurveyinstructionaltext,
       abbr = {arXiv},
       title={A Systematic Survey on Instructional Text: From Representation Formats to Downstream NLP Tasks}, 
@@ -32,14 +47,15 @@
       pdf = {2409.15861v1.pdf},
       title={A Zero-Shot Open-Vocabulary Pipeline for Dialogue Understanding}, 
       author={Abdulfattah Safa and Gözde Gül Şahin},
-      booktitle      = {Proceedings of the 2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics},
-      month          = {April},
-      year={2025},
-      address        = {New Mexico, USA},
-      publisher      = {Association for Computational Linguistics},
-      pages     = {00-00},
-      url={https://arxiv.org/abs/2409.15861.pdf}, 
-      abstract = "Dialogue State Tracking (DST) is crucial for understanding user needs and executing appropriate system actions in task-oriented dialogues. Majority of existing DST methods are designed to work within predefined ontologies and assume the availability of gold domain labels, struggling with adapting to new slots values. While Large Language Models (LLMs)-based systems show promising zero-shot DST performance, they either require extensive computational resources or they underperform existing fully-trained systems, limiting their practicality. To address these limitations, we propose a zero-shot, open-vocabulary system that integrates domain classification and DST in a single pipeline. Our approach includes reformulating DST as a question-answering task for less capable models and employing self-refining prompts for more adaptable ones. Our system does not rely on fixed slot values defined in the ontology allowing the system to adapt dynamically. We compare our approach with existing SOTA, and show that it provides up to 20% better Joint Goal Accuracy (JGA) over previous methods on datasets like Multi-WOZ 2.1, with up to 90% fewer requests to the LLM API."
+      booktitle = {Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)},
+      month = {April},
+      year = {2025},
+      address = {Albuquerque, New Mexico},
+      publisher = {Association for Computational Linguistics},
+      url = {https://aclanthology.org/2025.naacl-long.387/},
+      pages = {7562--7579},
+      ISBN = {979-8-89176-189-6},
+      abstract = {Dialogue State Tracking (DST) is crucial for understanding user needs and executing appropriate system actions in task-oriented dialogues. Majority of existing DST methods are designed to work within predefined ontologies and assume the availability of gold domain labels, struggling with adapting to new slots values. While Large Language Models (LLMs)-based systems show promising zero-shot DST performance, they either require extensive computational resources or they underperform existing fully-trained systems, limiting their practicality. To address these limitations, we propose a zero-shot, open-vocabulary system that integrates domain classification and DST in a single pipeline. Our approach includes reformulating DST as a question-answering task for less capable models and employing self-refining prompts for more adaptable ones. Our system does not rely on fixed slot values defined in the ontology allowing the system to adapt dynamically. We compare our approach with existing SOTA, and show that it provides up to 20% better Joint Goal Accuracy (JGA) over previous methods on datasets like Multi-WOZ 2.1, with up to 90% fewer requests to the LLM API.}
 }
 @inproceedings{gebeşçe2024gecturkwebexplainableonline,
       abbr = {COLING},
@@ -70,22 +86,6 @@
       primaryClass={cs.CL},
       abstract = "Recently, there has been growing interest within the community regarding whether large language models are capable of planning or executing plans. However, most prior studies use LLMs to generate high-level plans for simplified scenarios lacking linguistic complexity and domain diversity, limiting analysis of their planning abilities. These setups constrain evaluation methods (e.g., predefined action space), architectural choices (e.g., only generative models), and overlook the linguistic nuances essential for realistic analysis. To tackle this, we present PARADISE, an abductive reasoning task using Q\&A format on practical procedural text sourced from wikiHow. It involves warning and tip inference tasks directly associated with goals, excluding intermediary steps, with the aim of testing the ability of the models to infer implicit knowledge of the plan solely from the given goal. Our experiments, utilizing fine-tuned language models and zero-shot prompting, reveal the effectiveness of task-specific small models over large language models in most scenarios. Despite advancements, all models fall short of human performance. Notably, our analysis uncovers intriguing insights, such as variations in model behavior with dropped keywords, struggles of BERT-family and GPT-4 with physical and abstract goals, and the proposed tasks offering valuable prior knowledge for other unseen procedural tasks. The PARADISE dataset and associated resources are publicly available for further research exploration with this https URL."
 }
-
-@misc{kural2024quantifying,
-      abbr = {arXiv},
-      bibtex_show  = {true},
-      pdf = {2312.08722.pdf},
-      title={Quantifying Divergence for Human-AI Collaboration and Cognitive Trust},
-      author={Müge Kural and Ali Gebeşçe and Tilek Chubakov and Gözde Gül Şahin},
-      month={December},
-      year={2023},
-      url={https://arxiv.org/pdf/2312.08722.pdf},
-      eprint={2312.08722},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      abstract = "Predicting the collaboration likelihood and measuring cognitive trust to AI systems is more important than ever. To do that, previous research mostly focus solely on the model features (e.g., accuracy, confidence) and ignore the human factor. To address that, we propose several decision-making similarity measures based on divergence metrics (e.g., KL, JSD) calculated over the labels acquired from humans and a wide range of models. We conduct a user study on a textual entailment task, where the users are provided with soft labels from various models and asked to pick the closest option to them. The users are then shown the similarities/differences to their most similar model and are surveyed for their likelihood of collaboration and cognitive trust to the selected system. Finally, we qualitatively and quantitatively analyze the relation between the proposed decision-making similarity measures and the survey results. We find that people tend to collaborate with their most similar models -- measured via JSD -- yet this collaboration does not necessarily imply a similar level of cognitive trust. We release all resources related to the user study (e.g., design, outputs), models, and metrics at our repo."
-}
-
 
 @inproceedings{uzunoglu-ahin:2023:ijcnlp,
   abbr = {IJCNLP-AACL},
