@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: Former visitors, BSc/ MSc students, Interns
+group: Undergrad Intern
 group_rank: 5
 team_frontpage: false
 
