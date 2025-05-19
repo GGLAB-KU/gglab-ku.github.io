@@ -11,7 +11,7 @@ lastname: Safa
 publications: 'author^=*Safa'
 
 teaser: >
-    I am a second-year Ph.D. student at GGLab, working task-oriented dialogue systems.
+    I am a Ph.D. candidate at GGLab, specializing in task-oriented dialogue systems.
 
 profile:
     name: Abdulfattah Rashid Safa
