@@ -21,4 +21,7 @@ profile:
     email: asafa22@ku.edu.tr
 
 ---
-Currently, I am a Ph.D. student at [Koç University](https://www.ku.edu.tr/en/) Computer Science and Engineering Department. I got my master's degree from the Computer Science department at [Birzeit University](https://www.birzeit.edu/en), where I worked with [Prof.Adnan Yahya](https://www.birzeit.edu/en/faculty-staff/adnan-yahya) on Knowledge Extraction and Semantic Similarity. Before that, I had a bachelor's degree in electrical engineering from [Birzeit University](https://www.birzeit.edu/en) as well.  I have 12 years of experience in the semi-conductor software industry. My main research interest is grounded task-oriented dialogues.
+
+I am a Ph.D. student at the [Computer Science and Engineering Department](https://cs.ku.edu.tr) of [Koç University](https://www.ku.edu.tr/en/), working at the GGLab. I received my M.Sc. in Computer Science from [Birzeit University](https://www.birzeit.edu/en), where I collaborated with [Prof. Adnan Yahya](https://www.birzeit.edu/en/faculty-staff/adnan-yahya) on knowledge extraction and semantic similarity. I also hold a B.Sc. in Electrical Engineering from the same university.
+
+Before starting my Ph.D., I spent 12 years working in the semiconductor software industry. My current research focuses on grounded task-oriented dialogue systems.
