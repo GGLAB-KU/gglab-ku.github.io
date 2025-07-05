@@ -1,9 +1,9 @@
 ---
 layout: about
 inline: false
-group: PhD
-group_rank: 2
-team_frontpage: true
+group: Former visitors, BSc/ MSc students, Interns
+group_rank: 5
+team_frontpage: false
 
 title: Gürkan Soykan
 description: Profile of Gürkan Soykan, Doctoral Researcher at the GGLab.
@@ -11,7 +11,7 @@ lastname: Soykan
 publications: "author^=*Soykan"
 
 teaser: >
-  I am a first-year Ph.D. researcher at GGLab interested in dialogue systems.
+  I'm a researcher at the GGLab, and interested in dialogue systems.
 
 profile:
   name: Gürkan Soykan
