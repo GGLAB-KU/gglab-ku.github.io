@@ -26,7 +26,7 @@ Final obstacle that stands on the way is the *right evaluation measures* to trac
 
 #### Goals
 
-The project will investigate three major research directions to answer the aforementioned RQs:
+The project investigates three major research directions to answer the aforementioned RQs:
 
  - Large, Structured Dataset of Procedural Information Spanning Multiple Domains: In order to
 conduct research on data-driven and generalizable models for procedural language understanding, the
@@ -40,7 +40,7 @@ evaluate only on the end result using a single score.
 #### Team
 
  - PI: Gözde Gül Şahin
- - Graduate Students: Abdulfatah Rashid Safa, Tamta Kapanadze
+ - Graduate Students: Abdulfatah Rashid Safa, Tamta Kapanadze, Ali Gebesce, Hulki Ciray
  - Interns: Arda Uzunoğlu
 
 #### Funding
@@ -49,3 +49,4 @@ This project (ID:1109B322100424) is funded within the scope of Tübitak 2232B In
 
 #### Credit
 <a href="https://www.freepik.com/free-photo/3d-render-robot-with-books_1166338.htm#query=robot%20reading%20instruction&position=0&from_view=search&track=ais">Image by kjpargeter</a> on Freepik
+

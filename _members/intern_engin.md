@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: Undergrad Intern
+group: Intern
 group_rank: 4
 team_frontpage: false
 
@@ -11,7 +11,7 @@ lastname: Engin
 publications: 'author^=*Engin'
 
 teaser: >
-    I earned my Bachelor’s Degree in Germanistik from Istanbul University, currently working as a Software Developer at Mars Athletic Club and as a research intern at GGLab.
+    Working on linguistic puzzles at GGLab as an intern
 profile:
     name: Kaya Meriç Engin
     align: right

@@ -5,7 +5,7 @@ permalink: /
 nav: true
 nav_rank: 1
 sitetitle: true
-description: Welcome to the GGLab at Koç University. Team. Projects.
+description: Welcome to the GGLab. Team. Projects.
 
 profile:
   name: GGLab, NLP Research Group at Koç University
@@ -13,7 +13,7 @@ profile:
   image: new_group.webp
   image_circular: false # crops the image to make it circular
   image_caption: Group Members (2023)
-  email: gosahin@ku.edu.tr
+  email: goezde.sahin@fau.de
 
 
 news: true  # includes a list of news items
@@ -23,11 +23,11 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-GGLab (pronounced as "cici" in Turkish) is a Natural Language Processing (NLP) research lab led by [Asst. Prof. Gözde Gül Şahin](https://gozdesahin.github.io/). We have a keen interest in conducting fundamental research in core methodologies, including but not limited to areas such as learning/performing under low-resource settings and incorporating expert knowledge in language technologies. Additionally, we explore how these methodologies can be applied to various tasks, such as text simplification, linguistic structure analysis, grammatical error correction, dialogue understanding and question answering. We are part of [Computer Science Department](https://cs.ku.edu.tr/) at [Koç University](https://www.ku.edu.tr/) and affiliated with [KUIS AI Lab](https://ai.ku.edu.tr/), located in the north of Istanbul, Türkiye. GGLab is partly funded by [Scientific and Technological Research Council of Türkiye](https://www.tubitak.gov.tr/) via Tübitak 2232B International Fellowship for Outstanding Researchers program, and [Wikimedia Foundation](https://wikimediafoundation.org/) via [Wikimedia Research Fund](https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Research_%26_Technology_Fund/Wikimedia_Research_Fund).   
+GGLab (pronounced as "cici" in Turkish) is a Natural Language Processing (NLP) research lab led by Prof. Gözde Gül Şahin. We have a keen interest in conducting fundamental research in core methodologies, including but not limited to areas such as learning/performing under low-resource settings and incorporating expert knowledge in language technologies. Additionally, we explore how these methodologies can be applied to various tasks, such as text simplification, linguistic structure analysis, grammatical error correction, dialogue understanding and question answering. The lab has recently moved to [FAU Erlangen-Nürnberg University](https://www.fau.de/) and is part of Intelligent Language Systems Chair. We are affiliated with the [Computer Science Department](https://cs.ku.edu.tr/) at [Koç University](https://www.ku.edu.tr/) and [KUIS AI Lab](https://ai.ku.edu.tr/), located in the north of Istanbul, Türkiye. GGLab has been partly funded by [Scientific and Technological Research Council of Türkiye](https://www.tubitak.gov.tr/) via Tübitak 2232B International Fellowship for Outstanding Researchers program, [Wikimedia Foundation](https://wikimediafoundation.org/) via [Wikimedia Research Fund](https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Research_%26_Technology_Fund/Wikimedia_Research_Fund) and Google (Gemini) Academic Program.   
 
-[Talk to us](mailto:gosahin@ku.edu.tr) or
+[Talk to us](mailto:goezde.sahin@fau.de) or
 [join our group]({{ '/open-positions' | relative_url }})
-when you are interested in these topics or our work.
+if you are interested in these topics.
 
 {% assign members = site.members | where: "team_frontpage", true | sort: "lastname" %}
 <div class="d-flex flex-wrap align-content-stretch justify-content-center m-n2 pt-5 no-gutters">

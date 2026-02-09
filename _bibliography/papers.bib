@@ -85,19 +85,23 @@
       pages = {163--173},
       abstract={Sophisticated grammatical error detection/correction tools are available for a small set of languages such as English and Chinese. However, it is not straightforward -- if not impossible -- to adapt them to morphologically rich languages with complex writing rules like Turkish which has more than 80 million speakers. Even though several tools exist for Turkish, they primarily focus on spelling errors rather than grammatical errors and lack features such as web interfaces, error explanations and feedback mechanisms. To fill this gap, we introduce GECTurk WEB, a light, open-source, and flexible web-based system that can detect and correct the most common forms of Turkish writing errors, such as the misuse of diacritics, compound and foreign words, pronouns, light verbs along with spelling mistakes. Our system provides native speakers and second language learners an easily accessible tool to detect/correct such mistakes and also to learn from their mistakes by showing the explanation for the violated rule(s). The proposed system achieves 88,3 system usability score, and is shown to help learn/remember a grammatical rule (confirmed by 80% of the participants).}
 }
-@misc{uzunoglu2024paradise,
-      abbr = {arXiv},
-      bibtex_show  = {true},
-      pdf = {2403.03167.pdf},
-      title={PARADISE: Evaluating Implicit Planning Skills of Language Models with Procedural Warnings and Tips Dataset},
-      author={Arda Uzunoglu and Abdulfattah Safa and Gözde Gül Şahin},
-      month={March},
-      year={2024},
-      url={https://arxiv.org/pdf/2403.03167.pdf},
-      eprint={2403.03167},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      abstract = "Recently, there has been growing interest within the community regarding whether large language models are capable of planning or executing plans. However, most prior studies use LLMs to generate high-level plans for simplified scenarios lacking linguistic complexity and domain diversity, limiting analysis of their planning abilities. These setups constrain evaluation methods (e.g., predefined action space), architectural choices (e.g., only generative models), and overlook the linguistic nuances essential for realistic analysis. To tackle this, we present PARADISE, an abductive reasoning task using Q\&A format on practical procedural text sourced from wikiHow. It involves warning and tip inference tasks directly associated with goals, excluding intermediary steps, with the aim of testing the ability of the models to infer implicit knowledge of the plan solely from the given goal. Our experiments, utilizing fine-tuned language models and zero-shot prompting, reveal the effectiveness of task-specific small models over large language models in most scenarios. Despite advancements, all models fall short of human performance. Notably, our analysis uncovers intriguing insights, such as variations in model behavior with dropped keywords, struggles of BERT-family and GPT-4 with physical and abstract goals, and the proposed tasks offering valuable prior knowledge for other unseen procedural tasks. The PARADISE dataset and associated resources are publicly available for further research exploration with this https URL."
+@inproceedings{uzunoglu-etal-2024-paradise,
+    title = "{PARADISE}: Evaluating Implicit Planning Skills of Language Models with Procedural Warnings and Tips Dataset",
+    author = {Uzuno{\u{g}}lu, Arda  and
+      Safa, Abdulfattah  and
+      {\c{S}}ahin, G{\"o}zde G{\"u}l},
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.599/",
+    doi = "10.18653/v1/2024.findings-acl.599",
+    pages = "10085--10102",
+    abstract = "Recently, there has been growing interest within the community regarding whether large language models are capable of planning or executing plans. However, most prior studies use LLMs to generate high-level plans for simplified scenarios lacking linguistic complexity and domain diversity, limiting analysis of their planning abilities. These setups constrain evaluation methods (e.g., predefined action space), architectural choices (e.g., only generative models), and overlook the linguistic nuances essential for realistic analysis. To tackle this, we present PARADISE, an abductive reasoning task using Q{\&}A format on practical procedural text sourced from wikiHow. It involves tip and warning inference tasks directly associated with goals, excluding intermediary steps, with the aim of testing the ability of the models to infer implicit knowledge of the plan solely from the given goal. Our experiments, utilizing fine-tuned language models and zero-shot prompting, reveal the effectiveness of task-specific small models over large language models in most scenarios. Despite advancements, all models fall short of human performance. Notably, our analysis uncovers intriguing insights, such as variations in model behavior with dropped keywords, struggles of BERT-family and GPT-4 with physical and abstract goals, and the proposed tasks offering valuable prior knowledge for other unseen procedural tasks. The PARADISE dataset and associated resources are publicly available for further research exploration with https://anonymous.4open.science/r/paradise-53BD/README.md."
 }
 
 @inproceedings{uzunoglu-ahin:2023:ijcnlp,

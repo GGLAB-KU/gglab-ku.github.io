@@ -1,8 +1,8 @@
 ---
 layout: about
 inline: false
-group: Undergrad Intern
-group_rank: 5
+group: Intern
+group_rank: 4
 team_frontpage: false
 
 title: Hüseyin Emir Akdağ
@@ -11,7 +11,7 @@ lastname: Akdağ
 publications: 'author^=*Akdağ'
 
 teaser: >
-    I'm doing Translation Studies and Linguistics double major at Boğaziçi University. I worked as a research assistant at TÜBİTAK and the Boğaziçi Computational Social Science Lab. Currently interning at GGLab. My research focuses on machine translation, multilingual NLP, and evaluation.
+    Working on linguistic puzzles at GGLab as an intern
 profile:
     name: Hüseyin Emir Akdağ
     align: right

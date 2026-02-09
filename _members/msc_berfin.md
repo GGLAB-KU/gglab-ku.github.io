@@ -1,8 +1,8 @@
 ---
 layout: about
 inline: false
-group: Masters
-group_rank: 3
+group: Graduate Student
+group_rank: 2
 team_frontpage: true
 
 title: Berfin Duman
@@ -11,15 +11,15 @@ lastname: Duman
 publications: 'author^=*Duman'
 
 teaser: >
-    I earned my Bachelor of Science degree in Electronics and Communication Engineering from Istanbul Technical University and am a research intern at GGLab.
+    MSc student at GGLab
 
 profile:
     name: Berfin Duman
     align: right
     image: mems/duman-profile.webp
-    role: Masters
+    role: Graduate Student
     email: berfiinduman@gmail.com
 
 ---
 
-I earned my Bachelor of Science degree in Electronics and Communication Engineering from Istanbul Technical University and am a research intern at GGLab.
+I earned my Bachelor of Science degree in Electronics and Communication Engineering from Istanbul Technical University and am currently pursuing my Masters degree from at Koc University Computer Science Program. At GGLab, I worked on linguistic puzzles. 
