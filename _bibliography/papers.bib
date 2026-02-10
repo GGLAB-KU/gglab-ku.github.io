@@ -1,5 +1,18 @@
 ---
 ---
+@misc{ccaugatan2026clipping,
+      abbr = {arXiv},
+      bibtex_show  = {true},
+      pdf={2601.22801v1.pdf},
+      title={Clipping-Free Policy Optimization for Large Language Models}, 
+      author={Ömer Veysel Çağatan and Barış Akgün and Gözde Gül Şahin and Xuandong Zhao},
+      year={2026},
+      eprint={2601.22801},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.22801},
+      abstract={Reinforcement learning has become central to post-training large language models, yet dominant algorithms rely on clipping mechanisms that introduce optimization issues at scale, including zero-gradient regions, reward hacking, and training instability. We propose Clipping-Free Policy Optimization (CFPO), which replaces heuristic clipping with a convex quadratic penalty derived from Total Variation divergence constraints, yielding an everywhere-differentiable objective that enforces stable policy updates without hard boundaries. We evaluate CFPO across both reasoning and alignment settings. In reasoning, CFPO matches clipping-based methods on downstream benchmarks while extending the stable training regime. In alignment, CFPO mitigates verbosity exploitation and reduces capability degradation, while achieving competitive instruction-following performance. CFPO requires only a one-line code change and no additional hyperparameters. Our results suggest that CFPO is a promising drop-in alternative to clipping-based methods for LLM post-training.}
+}
 @inproceedings{er2025cetvel,
       abbr = {EACL},
       bibtex_show = {true},
