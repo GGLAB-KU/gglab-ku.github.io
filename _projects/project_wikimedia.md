@@ -50,3 +50,9 @@ The project will focus on the following tasks:
 ### Funding
 
 This project is funded by the Wikimedia Research Fund. The official project page can be found [here](https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Research_Fund/Bridging_the_Gap_Between_Wikipedians_and_Scientists_with_Terminology-Aware_Translation:_A_Case_Study_in_Turkish).
+
+### Publications
+
+<div class="publications">
+  {% bibliography -f papers -q @*[projects^=*terminology]* %}
+</div>

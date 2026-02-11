@@ -25,3 +25,7 @@
 "arXiv":
   url: https://arxiv.org/
   color: "#8b4513"  # Changed to a deep brown for distinction
+
+"Aperta":
+  url: https://aperta.ulakbim.gov.tr/
+  color: "#20b2aa"  # Light Sea Green for data repository

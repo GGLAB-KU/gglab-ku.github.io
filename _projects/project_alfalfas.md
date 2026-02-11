@@ -43,10 +43,18 @@ evaluate only on the end result using a single score.
  - Graduate Students: Abdulfatah Rashid Safa, Tamta Kapanadze, Ali Gebesce, Hulki Ciray
  - Interns: Arda Uzunoğlu
 
+#### Former Team Members
+- Betül Özateş (Postdoc)
+
 #### Funding
 
 This project (ID:1109B322100424) is funded within the scope of Tübitak 2232B International Fellowship for Outstanding Researchers funding scheme. (Funding Period: 09.2022-09.2025)
 
+#### Publications
+
+<div class="publications">
+  {% bibliography -f papers -q @*[projects^=*ALfaLFas]* %}
+</div>
+
 #### Credit
 <a href="https://www.freepik.com/free-photo/3d-render-robot-with-books_1166338.htm#query=robot%20reading%20instruction&position=0&from_view=search&track=ais">Image by kjpargeter</a> on Freepik
-
