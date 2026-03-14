@@ -5,15 +5,15 @@ group: Intern
 group_rank: 4
 team_frontpage: false
 
-title: Can Erer
-description: Profile of Can Erer 
+title: Salih Can Erer
+description: Profile of Salih Can Erer 
 lastname: Erer 
 publications: 'author^=*Erer'
 
 teaser: >
     Working on formal theorem proving with LLMs at GGLab
 profile:
-    name: Can Erer
+    name: Salih Can Erer
     align: right
     image: mems/can-erer-profile.webp
     role: Intern
