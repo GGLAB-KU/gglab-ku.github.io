@@ -11,7 +11,7 @@ lastname: Safa
 publications: 'author^=*Safa'
 
 teaser: >
-    I am a Ph.D. candidate at GGLab, specializing in task-oriented dialogue systems.
+   Ph.D. Candidate in Computer Science and Engineering at Koç University.
 
 profile:
     name: Abdulfattah Rashid Safa
