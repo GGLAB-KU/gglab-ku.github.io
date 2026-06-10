@@ -190,51 +190,55 @@
     The pipeline of our proposed project.
 </div>
 
-<p>This project addresses the gap between the growing volume of English-to-Turkish Wikipedia translations and the limited number of contributors, particularly in technical domains. By leveraging the collaborative efforts of academics in building terminology dictionaries, we propose a pipeline system to improve translation quality. Our focus is on fostering collaboration between academic and Wikipedia communities, creating datasets, and developing NLP models for terminology identification, retrieval, and terminology-aware translation. The goal is to encourage sustained contributions and enhance the overall quality of Turkish Wikipedia articles.</p>
+<p>This project addresses the gap between the escalating volume of English-to-Turkish Wikipedia translations and the insufficient number of contributors, particularly in technical domains. Our focus is two folds:</p>
+<ol>
+  <li>bridging academic/expert and Wikipedia communities,</li>
+  <li>creating datasets, and developing NLP models for terminology identification and linking, and terminology-aware translation</li>
+</ol>
 
-<h3 id="project-goals">Project Goals</h3>
-
-<p>The project will focus on the following tasks:</p>
+<h3 id="project-outcomes-and-key-findings">Project Outcomes and Key Findings</h3>
 
 <ul>
   <li>
-<strong>High-Quality Parallel Corpora for Terminology-Aware Translation:</strong> We aim to generate 3,000 parallel English-Turkish sentences that include:
-    <ol>
-      <li>English text annotated with technical terms,</li>
-      <li>Links to the correct terminology entries in the database,</li>
-      <li>Edited translations using the correct Turkish terminology.</li>
-    </ol>
+    <p><strong>TWiST: Turkish-English Wikipedia &amp; Thesis STEM Terminology Dataset:</strong> We compile and annotate a high-quality parallel English to Turkish corpus of size  3,300 sentence pairs evenly split across Mathematics, Physics, and Computer Science. Each sentence pair is annotated with terms, links and their correct translations based on terimler.org. The dataset is available at <a href="https://aperta.ulakbim.gov.tr/records/286016" rel="external nofollow noopener" target="_blank">Aperta</a></p>
   </li>
   <li>
-    <p><strong>Term Identification:</strong> Develop models to identify technical terms in a multilingual setup.</p>
+    <p><strong>Shared Task at SIGTURK 2026:</strong> We organized a shared task with three subtasks on TWiST. First subtask was “Term detection” where the goal is to find the aligned term spans in both languages. We found that state-of-the-art models can outperform humans in term detection. Second subtask was to change the translation of the term to be consistent with the terminology database and the original morphological process. Even the state-of-the-art models falled back to their preferred translation, failing to follow the expert guidance. Final subtask was the end-to-end translation with the offline glossary, where a small domain adapted model outperformed large generalist models. More information on the participants and the findings can be find in <a href="https://aclanthology.org/2026.sigturk-1.20/" rel="external nofollow noopener" target="_blank">our paper</a>.</p>
   </li>
   <li>
-    <p><strong>Term Linking:</strong> Build models to link identified terms to a terminology database. If the term is not present in the database, a notification system will alert domain experts to add it.</p>
+    <p><strong>Wikipedia Technical Translation Guideline:</strong> We develop a guideline for Turkish Wikipedians on how to provide a higher-quality translation for technical documents that contain vast amount of technical terms. We perform a user study where we survey the Wikipedians for the guideline’s SUS (System Usability Score), and measure a SUS score of 84/100. The guideline can be accessed through <a href="https://tr.wikipedia.org/wiki/Vikipedi:Bilimsel_Terimlere_Duyarl%C4%B1_%C3%87eviri_K%C4%B1lavuzu" rel="external nofollow noopener" target="_blank">here</a>.</p>
   </li>
   <li>
-<strong>Terminology-Aware Translation:</strong> Develop post-editing and translation systems that adhere to the terminology database to ensure consistent and accurate translations.</li>
+    <p><strong>Expert-Wikipedian Email Group:</strong> After thorough discussions between the academics and Turkish Wikipedians, we establish an email group to bridge these two communities. The guideline contains detailed instructions on how to reach out to experts in case of difficulties while translating technical terms. There are currently 35 members of the mail group and 19 active, public discussions. The group can be accessed through <a href="https://groups.google.com/g/bilimsel-terimler-genel" rel="external nofollow noopener" target="_blank">here</a>.</p>
+  </li>
+  <li>
+    <p><strong>Public repositories:</strong> All project related resources can be found under our <a href="https://github.com/GGLAB-KU/twist" rel="external nofollow noopener" target="_blank">data git repo</a>, <a href="https://github.com/GGLAB-KU/sigturk2026_sharedtask" rel="external nofollow noopener" target="_blank">shared task repo</a>.</p>
+  </li>
 </ul>
 
 <h3 id="project-team">Project Team</h3>
 
 <ul>
   <li>
-<strong>Asst. Prof. Gözde Gül Şahin</strong> (Principal Investigator)</li>
-  <li>
-<strong>Ali Gebeşçe</strong> (Master’s Student)</li>
-  <li>
-<strong>Ege Uğur Amasya</strong> (Intern)</li>
+<strong>Prof. Dr. Gözde Gül Şahin</strong> (Principal Investigator)</li>
+  <li><strong>Ali Gebeşçe</strong></li>
+  <li><strong>Ege Uğur Amasya</strong></li>
+  <li><strong>Abdulfattah Rashid Safa</strong></li>
 </ul>
 
 <h4 id="former-team-members">Former Team Members</h4>
 <ul>
-  <li>
-<strong>Mina Durhasan</strong> (Intern)</li>
+  <li><strong>Mina Durhasan</strong></li>
+  <li><strong>Gürkan Soykan</strong></li>
+  <li><strong>Gizem Ekiz</strong></li>
 </ul>
+
+<h3 id="project-date">Project Date</h3>
+<p>June 2024 - June 2025</p>
 
 <h3 id="funding">Funding</h3>
 
-<p>This project is funded by the Wikimedia Research Fund. The official project page can be found <a href="https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Research_Fund/Bridging_the_Gap_Between_Wikipedians_and_Scientists_with_Terminology-Aware_Translation:_A_Case_Study_in_Turkish" rel="external nofollow noopener" target="_blank">here</a>.</p>
+<p>This project is funded by the Wikimedia Research Fund. The official project page can be found <a href="https://meta.wikimedia.org/wiki/Research:Bridging_the_Gap_Between_Wikipedians_and_Scientists_with_Terminology-Aware_Translation:_A_Case_Study_in_Turkish" rel="external nofollow noopener" target="_blank">here</a>.</p>
 
 <h3 id="publications">Publications</h3>
 
@@ -291,7 +295,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2026 GGLab  . Photos from <a href="https://www.freepik.com/" target="_blank" rel="external nofollow noopener">Freepik</a>.
-Last updated: June 08, 2026.
+Last updated: June 10, 2026.
       </div>
     </footer>
 
