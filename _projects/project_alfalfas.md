@@ -40,7 +40,7 @@ evaluate only on the end result using a single score.
 #### Team
 
  - PI: Gözde Gül Şahin
- - Graduate Students: Abdulfatah Rashid Safa, Tamta Kapanadze, Ali Gebesce, Hulki Ciray
+ - Graduate Students: Abdulfattah Rashid Safa, Tamta Kapanadze, Ali Gebesce, Hulki Ciray
  - Interns: Arda Uzunoğlu
 
 #### Former Team Members
