@@ -1,5 +1,18 @@
 ---
 ---
+@misc{ulusan2026formalrewardbench,
+      abbr = {arXiv},
+      bibtex_show  = {true},
+      pdf={2605.10141v1.pdf},
+      title={FormalRewardBench: A Benchmark for Formal Theorem Proving Reward Models},
+      author={Zeynel A. Uluşan and Burak S. Akbudak and Can S. Erer and Gözde Gül Şahin},
+      year={2026},
+      eprint={2605.10141},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.10141},
+      abstract={Recent neural theorem provers use reinforcement learning with verifiable rewards (RLVR), where proof assistants provide binary correctness signals. While verifiable rewards are cheap and scalable without reward hacking issues, they suffer from sparse credit assignment: models receive no learning signal from difficult problems where partial progress goes unrewarded. This motivates learned reward models that can evaluate proof quality beyond binary verification. However, comparing reward models is challenging since it typically requires expensive RL training ablations. To address this, we introduce FormalRewardBench, the first benchmark for evaluating reward models in formal theorem proving with Lean 4. Our benchmark consists of 250 preference pairs where correct proofs are paired with incorrect variants generated through five expert curated error injection strategies: forced mistakes, minimal single-point variations, verbose incorrect proofs, natural language justification, and Python code injection. We evaluate frontier LLMs (e.g., Claude Opus 4.5), judge LLMs (e.g., CompassJudger-1-14B), general-purpose LLMs (e.g., Qwen2.5-72B-Instruct), and specialized theorem proving models (e.g., DeepSeek-Prover-V2-7B). Our results reveal that frontier LLMs achieve the highest performance (59.8%) while specialized theorem provers perform the worst (24.4%), suggesting that theorem proving ability does not transfer to proof evaluation. We provide further insights on various error injection mechanisms, highlighting the challenging nature of most injection mechanisms. We release FormalRewardBench publicly to encourage more research on developing reward models in formal mathematics.}
+}
 @misc{ccaugatan2026clipping,
       abbr = {arXiv},
       bibtex_show  = {true},
