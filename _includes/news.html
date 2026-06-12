@@ -1,10 +1,4 @@
 <div class="news-section">
-  <div class="news-header">
-    <!--h2 class="news-title">
-      <a href="{{ '/news/' | relative_url }}" class="all-news-link">Latest News</a>
-    </h2-->
-  </div>
-
   <div class="news-carousel">
     {% if site.news %}
       {%- assign news_size = site.news | size -%}
@@ -32,12 +26,16 @@
         
         <button class="carousel-button prev" aria-label="Previous slide">←</button>
         <button class="carousel-button next" aria-label="Next slide">→</button>
-        
-        <div class="carousel-dots">
-          {% for item in news limit: news_limit %}
-            <button class="dot" aria-label="Go to slide {{ forloop.index }}"></button>
-          {% endfor %}
-        </div>
+      </div>
+
+      <div class="carousel-dots">
+        {% for item in news limit: news_limit %}
+          <button class="dot" aria-label="Go to slide {{ forloop.index }}"></button>
+        {% endfor %}
+      </div>
+
+      <div class="more-news-link">
+        <a href="{{ '/news/' | relative_url }}" class="all-news-link">More news</a>
       </div>
     {% else %}
       <p>No news so far...</p>
@@ -48,11 +46,6 @@
     .news-section {
       max-width: 800px;
       margin: 0 auto;
-    }
-
-    .news-header {
-      text-align: center;
-      margin-bottom: 20px;
     }
 
     .news-title {
@@ -92,23 +85,65 @@
       padding: 20px 0;
     }
 
+    .more-news-link {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .carousel-dots {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: none;
+      background: #ddd;
+      cursor: pointer;
+      padding: 0;
+      transition: background-color 0.3s ease;
+    }
+
+    .dot.active {
+      background: #666;
+    }
+
     .carousel-container {
       position: relative;
       overflow: hidden;
       padding: 0 40px;
+      height: 300px;
     }
 
     .carousel-track {
       display: flex;
+      height: 100%;
       transition: transform 0.5s ease-in-out;
+      position: relative;
     }
 
     .carousel-slide {
       flex: 0 0 100%;
+      height: 100%;
+      overflow-y: auto;
       padding: 20px;
       box-sizing: border-box;
       opacity: 0.3;
       transition: opacity 0.3s ease-in-out;
+      position: relative;
+    }
+
+    .news-content img {
+      max-width: 100%;
+      max-height: 180px;
+      object-fit: contain;
+      display: block;
+      margin: 8px auto;
     }
 
     .carousel-slide.active {
@@ -151,27 +186,6 @@
       right: 0;
     }
 
-    .carousel-dots {
-      display: flex;
-      justify-content: center;
-      gap: 8px;
-      margin-top: 20px;
-    }
-
-    .dot {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      border: none;
-      background: #ddd;
-      cursor: pointer;
-      padding: 0;
-      transition: background-color 0.3s ease;
-    }
-
-    .dot.active {
-      background: #666;
-    }
   </style>
 
   <script>
@@ -185,27 +199,22 @@
 
       const slideWidth = slides[0].getBoundingClientRect().width;
 
-      // Arrange slides next to each other
-      slides.forEach((slide, index) => {
-        slide.style.left = slideWidth * index + 'px';
-      });
-
       let currentSlide = 0;
-      
+
       function moveToSlide(targetIndex) {
         if (targetIndex < 0) targetIndex = slides.length - 1;
         if (targetIndex >= slides.length) targetIndex = 0;
-        
+
         currentSlide = targetIndex;
-        
+
         // Move the track
         track.style.transform = `translateX(-${slideWidth * currentSlide}px)`;
-        
+
         // Update slides opacity
         slides.forEach((slide, index) => {
           slide.classList.toggle('active', index === currentSlide);
         });
-        
+
         // Update dots
         dots.forEach((dot, index) => {
           dot.classList.toggle('active', index === currentSlide);
@@ -224,7 +233,7 @@
       // Initialize first slide
       moveToSlide(0);
 
-      // Auto-advance slides every 5 seconds
+      // Auto-advance slides every 15 seconds
       setInterval(() => {
         moveToSlide(currentSlide + 1);
       }, 15000);
