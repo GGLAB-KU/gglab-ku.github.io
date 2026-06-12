@@ -7,10 +7,16 @@
 
   <div class="news-carousel">
     {% if site.news %}
+      {%- assign news_size = site.news | size -%}
+      {% if include.limit and site.announcements.limit %}
+      {% assign news_limit = site.announcements.limit %}
+      {% else %}
+      {% assign news_limit = news_size %}
+      {% endif %}
       <div class="carousel-container">
         <div class="carousel-track">
           {% assign news = site.news | reverse %}
-          {% for item in news limit: site.news_limit %}
+          {% for item in news limit: news_limit %}
             <div class="carousel-slide">
               <div class="news-date">{{ item.date | date: "%b %Y" }}</div>
               <div class="news-content">
@@ -28,7 +34,7 @@
         <button class="carousel-button next" aria-label="Next slide">→</button>
         
         <div class="carousel-dots">
-          {% for item in news limit: site.news_limit %}
+          {% for item in news limit: news_limit %}
             <button class="dot" aria-label="Go to slide {{ forloop.index }}"></button>
           {% endfor %}
         </div>
