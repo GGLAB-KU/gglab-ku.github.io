@@ -1,24 +1,23 @@
 ---
 layout: about
 inline: false
-group: Graduate Student
+group: Graduate Students
 group_rank: 2
 team_frontpage: true
 
 title: Abdulfattah Rashid Safa
-description: Profile of Abdulfattah Rashid Safa, Doctoral Researcher at the GGLab.
+description: PhD Candidate at GGLab
 lastname: Safa
 publications: 'author^=*Safa'
 
 teaser: >
-   Ph.D. Candidate in Computer Science and Engineering at Koç University.
+    PhD Candidate at GGLab
 
 profile:
     name: Abdulfattah Rashid Safa
     align: right
     image: mems/safa-profile.webp
     role: Graduate Student
-    email: asafa22@ku.edu.tr
 
 ---
 

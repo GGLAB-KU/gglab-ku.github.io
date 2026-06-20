@@ -1,12 +1,12 @@
 ---
 layout: about
 inline: false
-group: Intern
+group: Interns
 group_rank: 4
 team_frontpage: false
 
 title: Burak Sina Akbudak
-description: Profile of Burak Sina Akbudak
+description: Research Intern at GGLab
 lastname: Akbudak 
 publications: 'author^=*Akbudak'
 
@@ -17,7 +17,6 @@ profile:
     align: right
     image: mems/akbudak-profile.webp
     role: Intern
-    email:
 ---
 
 I am a first-year Computer Science student at Boğaziçi University with a background in neuro-symbolic AI and music informatics. My research focus lies in enhancing the reasoning and generative capabilities of Large Language Models (LLMs) through structured representations.

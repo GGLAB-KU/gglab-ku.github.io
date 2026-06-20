@@ -1,26 +1,25 @@
 ---
 layout: about
 inline: false
-group: Former Lab Affiliates
+group: Former Affiliates
 group_rank: 5
 team_frontpage: false
 
 title: Mina Durhasan
-description: Profile of Mina Durhasan, Bachelor Student at Koç University.
+description: Former Research Intern at GGLab
 lastname: Durhasan
 publications: 'author^=*Durhasan'
 
 teaser: >
-    **Previously**: Worked as an intern for Wikimedia project.
+    **Previously**: Worked on the Wikimedia project.
     <br>
-    **Currently**: Software Engineer at Turkish Technology
+    **Currently**: Software Engineer at Turkish Technology.
 
 profile:
     name: Mina Durhasan
     align: right
     image: mems/durhasan-profile.webp
     role: Former
-    email: mdurhasan21@ku.edu.tr
 
 ---
 

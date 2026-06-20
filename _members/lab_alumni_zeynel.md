@@ -6,7 +6,7 @@ group_rank: 3
 team_frontpage: true
 
 title: Zeynel Uluşan
-description: Profile of Zeynel Uluşan, Researcher at GGLab.
+description: Former MS Student at GGLab
 lastname: Uluşan
 publications: 'author^=*Uluşan'
 
@@ -20,7 +20,6 @@ profile:
     align: right
     image: mems/ulusan-profile.webp
     role: Lab Alumni
-    email: zeynelulusan@gmail.com
 ---
 
-I hold a bachelor's degree in Mathematics from [Boğaziçi University](https://www.boun.edu.tr/en-US/Index) and received my master's degree in Computer Science and Engineering at [Koç University](https://www.ku.edu.tr/en). I joined this research group during the Winter 2023 semester. Drawing from my Mathematics background, I am dedicated to leveraging my expertise to enhance NLP research. My research encompasses intriguing areas such as Neuro-symbolic Artificial Intelligence and Neural Formal Theorem Proving. My overarching goal is to assess and augment the reasoning capabilities of large language models. I firmly believe that harnessing the synergy between generative language models and symbolic logic tools will play a pivotal role in advancing the path towards Artificial General Intelligence (AGI).
+I hold a bachelor's degree in Mathematics from [Boğaziçi University](https://www.boun.edu.tr/en-US/Index) and received my master's degree in Computer Science and Engineering at [Koç University](https://www.ku.edu.tr/en). At GGLab, my research focused on Neuro-symbolic Artificial Intelligence and Neural Formal Theorem Proving, with the goal of assessing and augmenting the reasoning capabilities of large language models.

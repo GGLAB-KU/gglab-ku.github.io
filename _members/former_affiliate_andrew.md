@@ -1,12 +1,12 @@
 ---
 layout: about
 inline: false
-group: Former Lab Affiliates
+group: Former Affiliates
 group_rank: 5
 team_frontpage: false
 
 title: Andrew Yong-Xern Bond
-description: Profile of Andrew Yong Xern Bond, PhD Student at Koç University
+description: Former Undergraduate Researcher at GGLab
 lastname: Bond
 publications: 'author^=*Bond'
 
@@ -19,7 +19,6 @@ profile:
     align: right
     image: mems/bond-profile.webp
     role: Former
-    email: abond19@ku.edu.tr
 ---
 
-I am currently pursuing a PhD in Computer Engineering at Koç University. I obtained my Bachelor's degree in computer engineering from Koç University, with a minor in mathematics. My work at the GGLab focused on [Turkish Grammatical Error Correction and Detection](https://aclanthology.org/2023.findings-ijcnlp.26/) together with Atakan and Farrin. 
+I am currently pursuing a PhD in Computer Engineering at Koç University. I obtained my Bachelor's degree in computer engineering from Koç University, with a minor in mathematics. At GGLab, I worked on [Turkish Grammatical Error Correction and Detection](https://aclanthology.org/2023.findings-ijcnlp.26/).
