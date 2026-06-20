@@ -164,54 +164,85 @@
           </header>
 
           <article>
-            <h3 id="automatic-learning-of-procedural-language-from-natural-language-instructions-for-intelligent-assistance">Automatic Learning oF ProcedurAl Language From NAtural Language InStructions for Intelligent Assistance</h3>
+            <h2 id="automatic-learning-of-procedural-language-from-natural-language-instructions-for-intelligent-assistance">Automatic Learning oF ProcedurAl Language From NAtural Language InStructions for Intelligent Assistance</h2>
 
-<p><br></p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
 
-<h4 id="motivation">Motivation</h4>
-<p>Despite the number of studies that report exceptionally high scores (Devlin et. al., 2019) for downstream natural language processing (NLP) tasks, a growing number of studies discuss the gap between their performance on such tasks and on real-world tasks that require “understanding” (<a href="https://aclanthology.org/2020.acl-main.463.pdf" rel="external nofollow noopener" target="_blank">Bender &amp; Koller, 2020</a>). Some of the major causes for this are (i) neural models not being able to generalize to out-of-domain data, (ii) downstream tasks not containing the challenges of real-world scenarios and iii) not having suitable evaluation measures.</p>
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/projects/alfalfas.webp" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="ALfaLFas" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
 
-<p>In order to bring the performance on real-life and downstream tasks closer, this project proposes a novel task for understanding natural language utterances within a more realistic and challenging scope: <strong>understanding human-written instructions</strong>. Giving step-by-step instructions is one of the primary way of human communication to teach someone a new topic or a task. The research plan envisions a future, where people would also be able to instruct machines with such step-by-step instructions, and this research project aims to take the first step towards that goal by developing necessary tools to parse natural language utterances into a sequence of procedures. The advantage of having such a representation would be having the ability to reduce the statements automatically by using an off-the-shelf interpreter and enrich the final model with domain-specific knowledge/rules which cannot be easily learned from data.</p>
+  
+</figure>
 
-<p>A subfield of lingustics, semantics—the study of meaning—has researched how to <em>best represent meaning</em> for decades. The number of theorems that are introduced are too many to list here, however most theorems underline some common challenges such as <em>quantifiers, negation scope</em> and propose a way to address them in their representation scheme. However most of these representations are designed for sentences, ignoring the <em>inter-sentential connections</em> (e.g., After, then, because) and <em>co-referring with pronouns</em> (e.g., Sue is sick. She (Sue) won’t work tomorrow). Another prominent problem that occurs specifically in instruction text is <em>zero anaphora</em>. Imagine the 2-step procedure: “Mix the macaroni and cheese. Bake for 10 minutes.”. Here what to bake and where to bake are not explicitly stated but inferred from the context. Finally, referring is mostly done to an implicit (non-existing in text) object. For instance if we said “Bake it for 10 minutes”, it would refer to the product of the mixing action.Therefore, the first central research question is: “What is the best way to represent the meaning of step-by-step instructions?”.</p>
+    </div>
+</div>
 
-<p>Another major challenge arises when we want build models to <em>parse instructions from various domains into executable procedures</em>. We want a model trained with car repair instructions that contains some mixing actions (e.g., mixing paints) to be able to parse a cooking instruction that contains a mixing action correctly. Even though this is fairly easy for humans—thanks to our conceptual reasoning abilities— machines tend to overfit and not generalize to unseen domains, and similarly to unseen instructions. One way to tackle this challenge is to develop models, or improve existing models, with conceptual reasoning abilities. Extraction of concepts, however, requires the ability to identify and remember the reoccurring, important patterns and abstracting them from their surface forms, i.e., symbolize them. Hence the second central research question we pose in this project is: “How can we build generalizable models for processing raw text into well-defined procedures?”.</p>
+<p>Giving step-by-step instructions is one of the primary ways humans teach a new task; this project asks whether machines can be taught the same way. Understanding natural language instructions requires tackling challenges unique to procedural text: <em>zero anaphora</em> (“Mix the macaroni and cheese. Bake for 10 minutes.”: what to bake, and where, goes unstated), implicit co-references, and inter-sentential dependencies that go beyond sentence-level semantics. Three research questions drive the project: <em>What is the best way to represent the meaning of step-by-step instructions? How can we build generalizable models for parsing raw instructions into executable procedures? And which reasoning skills does this require, and how do we measure them adequately?</em> To answer these, the project pursued a comprehensive survey of the field, built evaluation benchmarks for procedural language understanding, and ultimately advanced toward a multi-agent cognitive architecture capable of learning new procedural tasks at inference time, enabling personal assistants that users can genuinely teach.</p>
 
-<p>Final obstacle that stands on the way is the <em>right evaluation measures</em> to track the progress in the direction of generalizable natural language processing models. The task we define already sets up a realistic measure, however, measuring the progress with one single score has been shown to be problematic. The reasons are as follows. First of all, neural models are not interpretable. Hence their strengths and weaknesses can not be analyzed simply by looking at a single score. Second, a single score only shows how good a model performs on this specific test set, rather than how good a model is by means of the skills required by the task (e.g., logical deduction, mathematical reasoning). As mentioned, this project hypothesizes that improving the ability of long-range reasoning would yield more generalizable models. That brings us to the final research question: “Which reasoning/logical skills are required for processing instructions?” and “How can we measure these skills adequately?”</p>
-
-<h4 id="goals">Goals</h4>
-
-<p>The project investigates three major research directions to answer the aforementioned RQs:</p>
+<h3 id="project-outcomes-and-key-findings">Project Outcomes and Key Findings</h3>
 
 <ul>
-  <li>Large, Structured Dataset of Procedural Information Spanning Multiple Domains: In order to
-conduct research on data-driven and generalizable models for procedural language understanding, the
-field requires large amounts of annotated corpora of goal-oriented instructions and procedures from
-variety of domains.</li>
-  <li>Evaluation Benchmark for Distinct Cognitive Abilities: The task of interpreting procedures
-encloses various linguistic and reasoning challenges. Nonetheless, the researchers are inclined to
-evaluate only on the end result using a single score.</li>
-  <li>Neural/Hybrid Models with Long-Range Reasoning Abilities for Procedural Text: We will contribute with i) investigating the generalizability of existing techniques on the procedural text, and ii) developing novel models inspired from existing cognitive architectures.</li>
+  <li>
+    <p><strong>Instructional Text Survey:</strong> We authored a comprehensive survey, “Instructional Text Across Disciplines: A Survey of Representations, Downstream Tasks, and Open Challenges Toward Capable AI Agents,” covering representation formats, datasets, and downstream tasks across the full landscape of procedural language understanding, examining 181 papers. Published in <em>Computational Linguistics</em> (2026).</p>
+  </li>
+  <li>
+    <p><strong>PARADISE: Procedural Planning Benchmark:</strong> We introduced PARADISE, an abductive reasoning benchmark using a Q&amp;A format on practical procedural text sourced from wikiHow. The task evaluates whether language models can infer implicit warnings and tips from a procedure goal alone, without intermediary steps, testing implicit planning skills. Published at <em>ACL 2024 Findings</em>.</p>
+  </li>
+  <li>
+    <p><strong>Turkish Procedural Language Understanding Benchmarks:</strong> We expanded Turkish wikiHow from 2,000 to 52,000 tutorials and generated downstream tasks including action linking, goal inference, and summarization, providing the first large-scale benchmark suite for procedural language understanding in a low-resource, morphologically rich language. Published at <em>IJCNLP-AACL 2023</em>.</p>
+  </li>
+  <li>
+    <p><strong>Multi-Agent Cognitive Architecture for Inference-Time Learning:</strong> We designed a novel multi-agent architecture featuring a four-layer cognitive memory system (Working, Episodic, Semantic, Procedural) augmented with Meta-Memory for confidence tracking. This architecture enables intelligent assistants to acquire new procedural workflows and personalize behavior directly during live interactions, without gradient-based retraining, through a seven-step adaptive execution flow.</p>
+  </li>
+  <li>
+    <p><strong>Dataset and Longitudinal Evaluation Framework:</strong> We designed a novel three-phase dataset capturing realistic user-AI teaching interactions, including procedural demonstrations and correction cycles, using fictional API schemas to prevent data contamination. We also proposed a longitudinal evaluation framework to measure learning effectiveness and personalization quality across extended interaction periods.</p>
+  </li>
+  <li>
+    <p><strong>Public Resources:</strong> Project-related resources and code are available under our <a href="https://github.com/GGLAB-KU" rel="external nofollow noopener" target="_blank">GitHub organization</a>.</p>
+  </li>
 </ul>
 
-<h4 id="team">Team</h4>
+<h3 id="project-team">Project Team</h3>
 
 <ul>
-  <li>PI: Gözde Gül Şahin</li>
-  <li>Graduate Students: Abdulfattah Rashid Safa, Tamta Kapanadze, Ali Gebesce, Hulki Ciray</li>
-  <li>Interns: Arda Uzunoğlu</li>
+  <li><strong>Prof. Dr. Gözde Gül Şahin</strong></li>
+  <li><strong>Abdulfattah Rashid Safa</strong></li>
+  <li><strong>Tamta Kapanadze</strong></li>
+  <li><strong>Ali Gebeşçe</strong></li>
+  <li><strong>Hulki Ciray</strong></li>
 </ul>
 
 <h4 id="former-team-members">Former Team Members</h4>
 <ul>
-  <li>Betül Özateş (Postdoc)</li>
+  <li><strong>Betül Özateş</strong></li>
+  <li><strong>Müge Kural</strong></li>
+  <li><strong>Gürkan Soykan</strong></li>
+  <li><strong>Tilek Chubakov</strong></li>
+  <li><strong>Atakan Kara</strong></li>
+  <li><strong>Farrin Marouf Sofian</strong></li>
+  <li><strong>Andrew Bond</strong></li>
+  <li><strong>Subha Vadlamannati</strong></li>
+  <li><strong>Arda Uzunoğlu</strong></li>
 </ul>
 
-<h4 id="funding">Funding</h4>
+<h3 id="project-date">Project Date</h3>
+<p>September 2022 - September 2025</p>
 
-<p>This project (ID:1109B322100424) is funded within the scope of Tübitak 2232B International Fellowship for Outstanding Researchers funding scheme. (Funding Period: 09.2022-09.2025)</p>
+<h3 id="funding">Funding</h3>
 
-<h4 id="publications">Publications</h4>
+<p>This project (121C132) is funded within the scope of TÜBİTAK 2232 International Fellowship for Outstanding Researchers.</p>
+
+<h3 id="publications">Publications</h3>
 
 <div class="publications">
   <ol class="bibliography">
@@ -788,6 +819,32 @@ evaluate only on the end result using a single score.</li>
 <h4 id="credit">Credit</h4>
 <p><a href="https://www.freepik.com/free-photo/3d-render-robot-with-books_1166338.htm#query=robot%20reading%20instruction&amp;position=0&amp;from_view=search&amp;track=ais" rel="external nofollow noopener" target="_blank">Image by kjpargeter</a> on Freepik</p>
 
+<!--
+#### Motivation
+Despite the number of studies that report exceptionally high scores (Devlin et. al., 2019) for downstream natural language processing (NLP) tasks, a growing number of studies discuss the gap between their performance on such tasks and on real-world tasks that require "understanding" ([Bender & Koller, 2020](https://aclanthology.org/2020.acl-main.463.pdf)). Some of the major causes for this are (i) neural models not being able to generalize to out-of-domain data, (ii) downstream tasks not containing the challenges of real-world scenarios and iii) not having suitable evaluation measures.
+
+In order to bring the performance on real-life and downstream tasks closer, this project proposes a novel task for understanding natural language utterances within a more realistic and challenging scope: **understanding human-written instructions**. Giving step-by-step instructions is one of the primary way of human communication to teach someone a new topic or a task. The research plan envisions a future, where people would also be able to instruct machines with such step-by-step instructions, and this research project aims to take the first step towards that goal by developing necessary tools to parse natural language utterances into a sequence of procedures. The advantage of having such a representation would be having the ability to reduce the statements automatically by using an off-the-shelf interpreter and enrich the final model with domain-specific knowledge/rules which cannot be easily learned from data.
+
+A subfield of lingustics, semantics—the study of meaning—has researched how to *best represent meaning* for decades. The number of theorems that are introduced are too many to list here, however most theorems underline some common challenges such as *quantifiers, negation scope* and propose a way to address them in their representation scheme. However most of these representations are designed for sentences, ignoring the *inter-sentential connections* (e.g., After, then, because) and *co-referring with pronouns* (e.g., Sue is sick. She (Sue) won't work tomorrow). Another prominent problem that occurs specifically in instruction text is *zero anaphora*. Imagine the 2-step procedure: "Mix the macaroni and cheese. Bake for 10 minutes.". Here what to bake and where to bake are not explicitly stated but inferred from the context. Finally, referring is mostly done to an implicit (non-existing in text) object. For instance if we said "Bake it for 10 minutes", it would refer to the product of the mixing action.Therefore, the first central research question is: "What is the best way to represent the meaning of step-by-step instructions?".
+
+Another major challenge arises when we want build models to *parse instructions from various domains into executable procedures*. We want a model trained with car repair instructions that contains some mixing actions (e.g., mixing paints) to be able to parse a cooking instruction that contains a mixing action correctly. Even though this is fairly easy for humans—thanks to our conceptual reasoning abilities— machines tend to overfit and not generalize to unseen domains, and similarly to unseen instructions. One way to tackle this challenge is to develop models, or improve existing models, with conceptual reasoning abilities. Extraction of concepts, however, requires the ability to identify and remember the reoccurring, important patterns and abstracting them from their surface forms, i.e., symbolize them. Hence the second central research question we pose in this project is: "How can we build generalizable models for processing raw text into well-defined procedures?".
+
+Final obstacle that stands on the way is the *right evaluation measures* to track the progress in the direction of generalizable natural language processing models. The task we define already sets up a realistic measure, however, measuring the progress with one single score has been shown to be problematic. The reasons are as follows. First of all, neural models are not interpretable. Hence their strengths and weaknesses can not be analyzed simply by looking at a single score. Second, a single score only shows how good a model performs on this specific test set, rather than how good a model is by means of the skills required by the task (e.g., logical deduction, mathematical reasoning). As mentioned, this project hypothesizes that improving the ability of long-range reasoning would yield more generalizable models. That brings us to the final research question: "Which reasoning/logical skills are required for processing instructions?" and "How can we measure these skills adequately?"
+
+#### Goals
+
+The project investigates three major research directions to answer the aforementioned RQs:
+
+ - Large, Structured Dataset of Procedural Information Spanning Multiple Domains: In order to
+conduct research on data-driven and generalizable models for procedural language understanding, the
+field requires large amounts of annotated corpora of goal-oriented instructions and procedures from
+variety of domains.
+ - Evaluation Benchmark for Distinct Cognitive Abilities: The task of interpreting procedures
+encloses various linguistic and reasoning challenges. Nonetheless, the researchers are inclined to
+evaluate only on the end result using a single score.
+- Neural/Hybrid Models with Long-Range Reasoning Abilities for Procedural Text: We will contribute with i) investigating the generalizability of existing techniques on the procedural text, and ii) developing novel models inspired from existing cognitive architectures.
+-->
+
           </article>
 
         </div>
@@ -799,7 +856,7 @@ evaluate only on the end result using a single score.</li>
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2026 GGLab  . Photos from <a href="https://www.freepik.com/" target="_blank" rel="external nofollow noopener">Freepik</a>.
-Last updated: June 12, 2026.
+Last updated: June 20, 2026.
       </div>
     </footer>
 
