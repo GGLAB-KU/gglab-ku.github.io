@@ -1,24 +1,23 @@
 ---
 layout: about
 inline: false
-group: Graduate Student
+group: Graduate Students
 group_rank: 2
 team_frontpage: true
 
 title: Ege Uğur Amasya
-description: Profile of Ege Uğur Amasya, Bachelor Student at Koç University.
+description: PhD Candidate at GGLab
 lastname: Amasya
 publications: 'author^=*Amasya'
 
 teaser: >
-    PhD Candidate at Koç University
+    PhD Candidate at GGLab
 
 profile:
     name: Ege Uğur Amasya
     align: right
     image: mems/amasya-profile.webp
     role: Graduate Student
-    email: eamasya19@ku.edu.tr
 
 ---
 

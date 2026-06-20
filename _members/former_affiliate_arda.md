@@ -1,17 +1,17 @@
 ---
 layout: about
 inline: false
-group: Former Lab Affiliates
+group: Former Affiliates
 group_rank: 5
 team_frontpage: false
 
 title: Arda Uzunoğlu
-description: Profile of Arda Uzunoğlu, Bachelor Student at John Hopkins.
+description: Former Research Intern at GGLab
 lastname: Uzunoğlu
 publications: 'author^=*Uzunoğlu'
 
 teaser: >
-    **Previously**: Worked on Procedural Language Understanding Benchmark
+    **Previously**: Worked on Procedural Language Understanding Benchmark.
     <br>
     **Currently**: Undergraduate CS student at Johns Hopkins University and undergraduate researcher at JHU Center for Language and Speech Processing.
 
@@ -20,10 +20,6 @@ profile:
     align: right
     image: mems/uzunoglu-profile.webp
     role: Former
-    email: ardauzunogluarda@gmail.com
-    address: >
-       Computer Science Department, Whiting School of Engineering, Johns Hopkins University
-       21218, Maryland, USA
 ---
 
-I am/was a research intern at GGLab and KUIS AI Center. From 2022 May to 2023 May, I worked on procedural language understanding from semi-structured procedural documents in low-resource languages and relationships between procedural elements such as goals, steps, and warnings/tips regarding such steps. My main research interest is the better alignment of language models in real-world tasks through procedural language understanding. Currently, I am an undergraduate student majoring in computer science at Johns Hopkins University and an undergraduate researcher at JHU Center for Language and Speech Processing. At GGLab, I worked on [procedural language understanding](https://aclanthology.org/2023.ijcnlp-main.52.pdf) and [planning benchmarks](https://aclanthology.org/2024.findings-acl.599/).
+I was a research intern at GGLab and KUIS AI Center from May 2022 to May 2023. I worked on procedural language understanding from semi-structured documents in low-resource languages, focusing on relationships between procedural elements such as goals, steps, and warnings. At GGLab, I contributed to [procedural language understanding](https://aclanthology.org/2023.ijcnlp-main.52.pdf) and [planning benchmarks](https://aclanthology.org/2024.findings-acl.599/). I am currently an undergraduate student in Computer Science at Johns Hopkins University and an undergraduate researcher at the JHU Center for Language and Speech Processing.

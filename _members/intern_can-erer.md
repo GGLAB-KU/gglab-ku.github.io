@@ -1,12 +1,12 @@
 ---
 layout: about
 inline: false
-group: Intern
+group: Interns
 group_rank: 4
 team_frontpage: false
 
 title: Salih Can Erer
-description: Profile of Salih Can Erer 
+description: Research Intern at GGLab
 lastname: Erer 
 publications: 'author^=*Erer'
 
@@ -17,7 +17,6 @@ profile:
     align: right
     image: mems/can-erer-profile.webp
     role: Intern
-    email: salih.erer@boun.edu.tr
 ---
 
 I am a senior undergraduate student at Boğaziçi University, double majoring in Computer Engineering and Mathematics. My research interests lie at the intersection of machine learning, formal logic, and networked systems.

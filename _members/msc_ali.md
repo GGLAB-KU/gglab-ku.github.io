@@ -1,24 +1,23 @@
 ---
 layout: about
 inline: false
-group: Graduate Student
+group: Graduate Students
 group_rank: 2
 team_frontpage: true
 
 title: Ali Gebeşçe
-description: Profile of Ali Gebeşçe, Student Researcher at GGLab.
+description: MS Student at GGLab
 lastname: Gebeşçe
 publications: 'author^=*Gebeşçe'
 
 teaser: >
-   M.Sc. student at Koç University and KUIS AI.
+    MS Student at GGLab
 
 profile:
     name: Ali Gebeşçe
     align: right
     image: mems/gebesce-profile.webp
     role: Graduate Student
-    email: agebesce17@ku.edu.tr
 
 ---
 

@@ -1,12 +1,12 @@
 ---
 layout: about
 inline: false
-group: Former Lab Affiliates
+group: Former Affiliates
 group_rank: 5
 team_frontpage: false
 
 title: Müge Kural
-description: Profile of Müge Kural, Ex Doctoral Researcher at the GGLab.
+description: Former MS Student at GGLab
 lastname: Kural
 publications: 'author^=*Kural'
 
@@ -20,7 +20,6 @@ profile:
     align: right
     image: mems/kural-profile.webp
     role: Former
-    email: mugekural@ku.edu.tr
 
 ---
 
