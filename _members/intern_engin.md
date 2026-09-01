@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Interns
-group_rank: 4
+group_rank: 5
 team_frontpage: false
 
 title: Kaya Meriç Engin
@@ -11,7 +11,7 @@ lastname: Engin
 publications: 'author^=*Engin'
 
 teaser: >
-    Working on linguistic puzzles at GGLab
+    Worked on linguistic puzzles at GGLab
 profile:
     name: Kaya Meriç Engin
     align: right

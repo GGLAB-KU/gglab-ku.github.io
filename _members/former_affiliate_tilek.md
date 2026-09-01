@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Former Affiliates
-group_rank: 5
+group_rank: 6
 team_frontpage: false
 
 title: Tilek Chubakov

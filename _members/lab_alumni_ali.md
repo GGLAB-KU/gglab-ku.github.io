@@ -1,23 +1,24 @@
 ---
 layout: about
 inline: false
-group: Graduate Students
-group_rank: 2
-team_frontpage: true
+group: Lab Alumni
+group_rank: 4
+team_frontpage: false
 
 title: Ali Gebeşçe
-description: MS Student at GGLab
+description: Former Member of GGLab
 lastname: Gebeşçe
 publications: 'author^=*Gebeşçe'
 
 teaser: >
-    MS Student at GGLab
+    **Previously**: Worked on terminology-aware machine translation
+    and grammatical error correction at GGLab.
 
 profile:
     name: Ali Gebeşçe
     align: right
     image: mems/gebesce-profile.webp
-    role: Graduate Student
+    role: Lab Alumni
 
 ---
 
