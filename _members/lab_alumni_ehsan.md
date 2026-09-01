@@ -2,8 +2,8 @@
 layout: about
 inline: false
 group: Lab Alumni
-group_rank: 3
-team_frontpage: true
+group_rank: 4
+team_frontpage: false
 
 title: Ehsan Barkhordar
 description: Former MS Student at GGLab

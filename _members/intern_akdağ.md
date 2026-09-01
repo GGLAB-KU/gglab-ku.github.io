@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Interns
-group_rank: 4
+group_rank: 5
 team_frontpage: false
 
 title: Hüseyin Emir Akdağ
@@ -11,7 +11,7 @@ lastname: Akdağ
 publications: 'author^=*Akdağ'
 
 teaser: >
-    Working on linguistic puzzles at GGLab
+    Worked on linguistic puzzles at GGLab
 profile:
     name: Hüseyin Emir Akdağ
     align: right

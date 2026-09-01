@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Interns
-group_rank: 4
+group_rank: 5
 team_frontpage: false
 
 title: Burak Sina Akbudak
@@ -11,7 +11,7 @@ lastname: Akbudak
 publications: 'author^=*Akbudak'
 
 teaser: >
-    Working on formal theorem proving with LLMs at GGLab
+    Worked on formal theorem proving with LLMs at GGLab
 profile:
     name: Burak Sina Akbudak
     align: right

@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Interns
-group_rank: 4
+group_rank: 5
 team_frontpage: false
 
 title: Salih Can Erer
@@ -11,7 +11,7 @@ lastname: Erer
 publications: 'author^=*Erer'
 
 teaser: >
-    Working on formal theorem proving with LLMs at GGLab
+    Worked on formal theorem proving with LLMs at GGLab
 profile:
     name: Salih Can Erer
     align: right
