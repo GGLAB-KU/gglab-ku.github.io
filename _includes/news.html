@@ -12,13 +12,15 @@
           {% assign news = site.news | reverse %}
           {% for item in news limit: news_limit %}
             <div class="carousel-slide">
-              <div class="news-date">{{ item.date | date: "%b %Y" }}</div>
-              <div class="news-content">
-                {% if item.inline %}
-                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                {% else %}
-                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                {% endif %}
+              <div class="slide-inner">
+                <div class="news-date">{{ item.date | date: "%b %Y" }}</div>
+                <div class="news-content">
+                  {% if item.inline %}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  {% else %}
+                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                  {% endif %}
+                </div>
               </div>
             </div>
           {% endfor %}
@@ -117,7 +119,9 @@
       position: relative;
       overflow: hidden;
       padding: 0 40px;
-      height: 300px;
+      /* Fallback height; the script resizes this to fit the active slide. */
+      height: 940px;
+      transition: height 0.4s ease-in-out;
     }
 
     .carousel-track {
@@ -144,6 +148,31 @@
       object-fit: contain;
       display: block;
       margin: 8px auto;
+    }
+
+    /* A news figure (e.g. a portrait poster) gets the rest of the slide
+       instead of the 180px cap used for inline figures. */
+    .carousel-slide .news-figure {
+      margin: 8px 0 0;
+    }
+
+    .carousel-slide .news-figure img {
+      max-height: 820px;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 576px) {
+      .carousel-container {
+        height: 620px;
+      }
+
+      .carousel-slide .news-figure img {
+        max-height: 420px;
+      }
     }
 
     .carousel-slide.active {
@@ -197,9 +226,23 @@
       const dotsNav = document.querySelector('.carousel-dots');
       const dots = Array.from(dotsNav.children);
 
+      const container = document.querySelector('.carousel-container');
       const slideWidth = slides[0].getBoundingClientRect().width;
 
       let currentSlide = 0;
+
+      // Slides differ wildly in height (a one-line note vs. a full poster), so
+      // the container tracks whatever is on screen instead of sizing to the
+      // tallest slide.
+      function fitHeight() {
+        const maxHeight = window.matchMedia('(max-width: 576px)').matches ? 620 : 1000;
+        const slide = slides[currentSlide];
+        const inner = slide.querySelector('.slide-inner');
+        const styles = getComputedStyle(slide);
+        const padding = parseFloat(styles.paddingTop) + parseFloat(styles.paddingBottom);
+        const content = inner.getBoundingClientRect().height + padding;
+        container.style.height = `${Math.min(Math.max(content, 200), maxHeight)}px`;
+      }
 
       function moveToSlide(targetIndex) {
         if (targetIndex < 0) targetIndex = slides.length - 1;
@@ -219,6 +262,8 @@
         dots.forEach((dot, index) => {
           dot.classList.toggle('active', index === currentSlide);
         });
+
+        fitHeight();
       }
 
       // Click events for buttons
@@ -232,6 +277,13 @@
 
       // Initialize first slide
       moveToSlide(0);
+
+      // Images finish loading after this point and change the slide height.
+      track.querySelectorAll('img').forEach((img) => {
+        if (!img.complete) img.addEventListener('load', fitHeight);
+      });
+      window.addEventListener('load', fitHeight);
+      window.addEventListener('resize', fitHeight);
 
       // Auto-advance slides every 15 seconds
       setInterval(() => {
