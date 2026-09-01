@@ -918,6 +918,28 @@ nav[data-toggle=toc] .nav-link.active:hover {
   color: var(--global-text-color);
 }
 
+/* Image attached to a news item; the carousel on the home page overrides the
+   sizing so a tall poster still fits inside a slide. */
+.news-figure {
+  text-align: center;
+  margin: 12px 0;
+}
+.news-figure img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.news-figure {
+  /* Optional link to a full-resolution version of the figure. */
+}
+.news-figure a {
+  display: inline-block;
+  line-height: 0;
+  border: none;
+  cursor: zoom-in;
+}
+
 .social {
   text-align: center;
 }
