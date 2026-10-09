@@ -1,12 +1,16 @@
 ---
 ---
-@misc{akbudak2026treethink,
-      abbr = {arXiv},
+@inproceedings{akbudak2026treethink,
+      abbr = {EMNLP},
       bibtex_show  = {true},
       pdf={2607.11258v1.pdf},
       title={TreeThink: A Modular Tree Search Library for Mathematical Reasoning with LLMs},
       author={Burak S. Akbudak and Zeynel A. Uluşan and Can S. Erer and Gözde Gül Şahin},
       year={2026},
+      booktitle={Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: System Demonstrations},
+      month={October},
+      address={Budapest, Hungary},
+      publisher={Association for Computational Linguistics},
       eprint={2607.11258},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
@@ -39,13 +43,17 @@
       url={https://arxiv.org/abs/2601.22801},
       abstract={Reinforcement learning has become central to post-training large language models, yet dominant algorithms rely on clipping mechanisms that introduce optimization issues at scale, including zero-gradient regions, reward hacking, and training instability. We propose Clipping-Free Policy Optimization (CFPO), which replaces heuristic clipping with a convex quadratic penalty derived from Total Variation divergence constraints, yielding an everywhere-differentiable objective that enforces stable policy updates without hard boundaries. We evaluate CFPO across both reasoning and alignment settings. In reasoning, CFPO matches clipping-based methods on downstream benchmarks while extending the stable training regime. In alignment, CFPO mitigates verbosity exploitation and reduces capability degradation, while achieving competitive instruction-following performance. CFPO requires only a one-line code change and no additional hyperparameters. Our results suggest that CFPO is a promising drop-in alternative to clipping-based methods for LLM post-training.}
 }
-    @misc{barkhordar2026nonenglishpapersreviewedfairly,
-      abbr = {arXiv},
+    @inproceedings{barkhordar2026nonenglishpapersreviewedfairly,
+      abbr = {EMNLP},
       bibtex_show  = {true},
       pdf={2604.07119v1.pdf},
       title={Are Non-English Papers Reviewed Fairly? Language-of-Study Bias in NLP Peer Reviews},
       author={Ehsan Barkhordar and Abdulfattah Safa and Verena Blaschke and Erika Lombart and Marie-Catherine de Marneffe and Gözde Gül Şahin},
       year={2026},
+      booktitle={Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+      month={October},
+      address={Budapest, Hungary},
+      publisher={Association for Computational Linguistics},
       eprint={2604.07119},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
@@ -117,13 +125,17 @@
     abstract = {This paper presents an overview of the SIGTURK 2026 Shared Task on Terminology-Aware Machine Translation for English-Turkish Scientific Texts. We address the critical challenge of terminological accuracy in low-resource settings by constructing the first terminology-rich English-Turkish parallel corpus, comprising 3,300 sentence pairs from STEM domains with 10,157 expert-validated term pairs. The shared task consists of three subtasks: term detection, expert-guided correction, and end-to-end post-editing. We evaluate state-of-the-art baselines (including GPT-5.2 and Claude Sonnet 4.5) alongside participant systems employing diverse strategies from fine-tuning to Retrieval-Augmented Generation (RAG). Our results highlight that while massive generalist models dominate zero-shot detection, smaller, domain-adapted models using Supervised Fine-Tuning and Reinforcement Learning can significantly outperform them in end-to-end post-editing. Furthermore, we find that rigid retrieval pipelines often disrupt fluency, whereas Chain-of-Thought prompting allows models to integrate terminology more naturally. Despite these advances, a significant gap remains between automated systems and human expert performance in strict terminology correction.},
     projects = {terminology}
 }
-@misc{soykan2024linguisticallyinformedmultilingualinstructiontuning,
-      abbr = {arXiv},
+@inproceedings{soykan2024linguisticallyinformedmultilingualinstructiontuning,
+      abbr = {EMNLP},
       bibtex_show  = {true},
       pdf={2410.07809v1.pdf},
-      title={Linguistically-Informed Multilingual Instruction Tuning: Is There an Optimal Set of Languages to Tune?}, 
+      title={No Optimal Language Set Exists for Multilingual Instruction Tuning: Insights from a Linguistically-Informed Study},
       author={Gürkan Soykan and Gözde Gül Şahin},
-      year={2024},
+      year={2026},
+      booktitle={Proceedings of the Workshop on Insights from Negative Results in NLP},
+      month={October},
+      address={Budapest, Hungary},
+      publisher={Association for Computational Linguistics},
       eprint={2410.07809},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
@@ -299,4 +311,3 @@
   note         = {Dataset},
   projects     = {terminology}
 }
-
